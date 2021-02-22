@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Alternative Adaptation Methods for East Boston</title>
+
+		<!-- Processing Library-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+
+	</head>
+
+	<body>
+		<script type=“application/processing”></script>
+
+		int num = 30;
+		float[] y = new float[num];
+		float sW;
+
+		void setup(){
+  		
+  		fullScreen();
+  
+   		for(int n=0; n<num; n++){
+    		y[n] = height/num*n;
+    
+    		sW = height/num/2;
+    		frameRate(60);
+   		}
+	}
+
+	void draw() {
+  	background(#228B22); //background color
+  
+  	for(int n=0; n<num; n++){
+    float alpha = map(y[n], 0, height, 0, 255);
+    
+    stroke(#add8e6, alpha); //color of moving arrays
+    strokeWeight(sW);
+    line(0,y[n],width,y[n]);
+    
+    y[n] +=0.5;
+    if (y[n]>height) y[n] = 0;
+  }
+  
+  stroke(  #228B22); //background color for mask
+  strokeWeight(height/7);
+  fill(#228B22); //island color
+  ellipse(width/3, height/2, height/2, height/2); //Maverick - Jefferies Point
+  ellipse(1000, height/4, height/4, height/4); //Logan Airport
+  ellipse(1000, width/2, height/3, height/3); //Suffollk Downs
+}
+
+	</body>
+
+</html>
