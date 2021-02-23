@@ -10,16 +10,15 @@
 	</head>
 
 	<body>
-		<script type=“application/processing”>
+		<script type="application/processing">
 
 		int num = 30;
 		float[] y = new float[num];
 		float sW;
+		
 
 		void setup(){
   		
-  			fullScreen();
-  
    			for(int n=0; n<num; n++){
     		y[n] = height/num*n;
     
@@ -42,9 +41,9 @@
     		if (y[n]>height) y[n] = 0;
  	 		}
   
-  			stroke(  #228B22); //background color for mask
+  			stroke(  #228B22); 
   			strokeWeight(height/7);
-  			fill(#228B22); //island color
+  			fill(#228B22); 
   			ellipse(width/3, height/2, height/2, height/2); 
   			ellipse(1000, height/4, height/4, height/4); 
   			ellipse(1000, width/2, height/3, height/3); 
