@@ -1,7 +1,20 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
+	<style>
+		
+		h1 {color: white; background-color: ; font-family: sans-serif; text-align: center;}
+		h2 {color: white; background-color: #8ca392; font-family: sans-serif; text-align: center;}
+		h3 {color:#ffffee;font-family: sans-serif;text-align: left;}
+		p  {color:#ffffee; opacity: .8; text-align: center;text-align: justify; font-family: sans-serif;}
+		ol {color:#ffffee; opacity: .8; text-align: left;}
+		ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+		li a {float: left;}
+		li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: sans-serif;}
+		li a:hover {background-color: #111}
+		.active {background-color:#91835c;}
+
+	</style>
 		<title>Alternative Adaptation Methods for East Boston</title>
 
 		<!-- Processing Library-->
@@ -9,16 +22,79 @@
 
 	</head>
 
-	<body>
+	 <ul>
+  		<li><a class=active href="default.asp">Home</a></li>
+  		<li><a href="https://www.rijkswaterstaat.nl/english/about-us/gems-of-rijkswaterstaat/room-for-the-river/index.aspx">Room for Rivers</a></li>
+  		<li style="float:right"><a href="mailto:wire.k@northeastern.edu">Contact</a></li>
+  		<li><a  href="http://lariver.org/">LA River</a></li>
+	</ul> 
+
+		<h1>Alternative Adaptation Methods for East Boston</h1>
+		
+			<h2>Project Summary </h2>
+				
+				<!--Abstract-->
+
+				<p>
+					Today, cities are facing a multitude of issues spanning from social justice movements to the rising sea levels caused by climate change. These issues are forcing cities to rethink how urban centers are designed and how these new approaches will affect the majority of residents living within the city limits. Challenges such as housing equity and allowing for new private development to take place puts pressure on finding a balance between the two and climate change forces cities to take drastic measures to prepare for flooding and any displacement it may bring. In East Boston, the controversial redevelopment of Suffolk Downs exemplifies these scenarios by bringing in expensive housing units and the promise of resilient open space.
+
+					This proposal analyzes the effects that large Green Resilient Infrastructure Systems (GRIS) have on urban communities and how effective they are at adapting to the consequences of climate change. The concept of Green Resilient Infrastructure is to provide environmental management benefits to the area along with increasing the neighborhood attractiveness. As cities embrace resilience strategies (rain gardens, greenways, reintroduced marshland), it has been correlated with increasing the property value of the surrounding land leading to indirect displacement of low income and minority neighborhoods, which are disproportionately affected by climate change.
+
+					To address and hopefully avoid the issues of indirect displacement, research has influenced my decisions to focus on a design intervention in East Boston, focusing on three areas; Central Square, Logan Airport and Jefferies Point. The stakeholders for this project is a long list, but mainly consists of Environmental Justice organizations, the City of Boston, local institutions and universities, development firms,  field experts such as environmental scientists, non-profit organizations such as N.O.A.H, and Landscape Architecture / Urban Planning firms. 
+
+
+					This design intervention will focus on understanding the environmental history of East Boston and how restoring certain attributes may offer an alternative method to adapt to climate change and protect residents from sea level rise, while ensuring indirect displacement is kept to a minimum. While Boston continues to move forward with their Climate Ready Boston Action Plan, I hope to synthesize alternative plans to restore ecological function in the Logan Airport District, Central Square and portions of Jefferies Point. 
+				</p>
+
+			<h2>Precedent Research - The Amsterdam-Rhine Canal System</h2>
+
+				<!--Analysis of the Netherlands Canal System-->
+
+				<h3>What is the Amsterdam-Rhine Canal?</h3>
+
+					<p>
+						The Amsterdam-Rhine Canal is Canal System in the Netherlands that runs from Amsterdam, the capital of the country and one of the largest ports, to the main shipping artery of the Rhine. This Canal System was completed in 1952 and is about 45 miles long, leading it to be one of the most heavily used Canal System in Western Europe. 
+					</p>
+
+				<h3>Why is this important?</h3>
+					<p>
+						Well, besides being a huge transportation connection, the Amsterdam-Rhine Canal is used for water level reuglations in surrounding polders. When regulating water levels, minimizing flooding and managing available water resources between different stakeholders are both incredibly influential factors. By using the Canal for regulating water levels, they are able to ensure a sufficient volume of ground water and surface water, along with keeping the water quality up to par.
+					</p>
+				<h3>Who Manages the Water?</h3>
+					<p>
+						Another great question! Water management in the Netherlands is divided into two main groups. The first is vested in the Rijkswaterstaat, which is essentially a public agency for water management. The Rijkwaterstaat focuses on maintaing dykes, dams, weirs, storm surge barriers, and other methods to address flooding. This may be done through projects such as "Room for Rivers" or the physical construction of secondary channels.
+					</p>
+					<p>
+						The other group responsible for water management in the Netherlands are their District Water Boards. These local government organizations are responsible for the regional waters. The main focuses that fall under their jurisdiction include ensuring water is clean in order to keep fish stocks up, along with protecting from floods and making sure that farmers have enough water for their crops.
+					</p>
+				<h3>Room for Rivers Program</h3>
+					<p>
+						Along with their water management system that is already in place, the Netherlands realizes that being prepared for climate change relies on being proactive and this lead to the creation of Room for Rivers. The main goal of the program is to manage higher water levels by lowering the levels of flood plains, creating water buffers, relocating levees, increasing the depths of side channels and the construction of side passses or secondary channels.
+					</p>
+					<p>
+						The key is to restore the natural floodplain through 3 objectives:
+						<ol type = "1" >
+							<li>The Rhine will cope with 16,000 cubic meters of water per second without flooding</li>
+							<li>The measures to increase safety will increase the overall environmental quality</li>
+							<li>The extra room for rivers that will be needed will be made permanently available</li>
+						</ol>
+					</p>
+
+			<h2>Precedent Research - The LA River</h2>
+
+			<!--Analysis of the LA River-->
+
+			<h3></h3>
+			<body style="background-color:#738678">
 		<script type="application/processing">
 
 		int num = 30;
 		float[] y = new float[num];
 		float sW;
-		
+
 
 		void setup(){
-  		
+  			size(1424, 950);
    			for(int n=0; n<num; n++){
     		y[n] = height/num*n;
     
@@ -28,7 +104,9 @@
 		}
 
 		void draw() {
-  			background(#228B22); 
+  			background(#738678); 
+
+
   
   			for(int n=0; n<num; n++){
     		float alpha = map(y[n], 0, height, 0, 255);
@@ -41,9 +119,9 @@
     		if (y[n]>height) y[n] = 0;
  	 		}
   
-  			stroke(  #228B22); 
+  			stroke(#738678); 
   			strokeWeight(height/7);
-  			fill(#228B22); 
+  			fill(#738678); 
   			ellipse(width/3, height/2, height/2, height/2); 
   			ellipse(1000, height/4, height/4, height/4); 
   			ellipse(1000, width/2, height/3, height/3); 
@@ -51,59 +129,4 @@
 	</script>
 	<canvas><!--Processing Code will hopefully show up--></canvas>
 	</body>
-		
-			<h2 style="background-color:#738678;">Project Summary - Alternative Adaptation Methods for East Boston</h2>
-				
-				<!--Abstract-->
-
-				<p style="background-color:#ffffee">
-					Today, cities are facing a multitude of issues spanning from social justice movements to the rising sea levels caused by climate change. These issues are forcing cities to rethink how urban centers are designed and how these new approaches will affect the majority of residents living within the city limits. Challenges such as housing equity and allowing for new private development to take place puts pressure on finding a balance between the two and climate change forces cities to take drastic measures to prepare for flooding and any displacement it may bring. In East Boston, the controversial redevelopment of Suffolk Downs exemplifies these scenarios by bringing in expensive housing units and the promise of resilient open space.
-
-					This proposal analyzes the effects that large Green Resilient Infrastructure Systems (GRIS) have on urban communities and how effective they are at adapting to the consequences of climate change. The concept of Green Resilient Infrastructure is to provide environmental management benefits to the area along with increasing the neighborhood attractiveness. As cities embrace resilience strategies (rain gardens, greenways, reintroduced marshland), it has been correlated with increasing the property value of the surrounding land leading to indirect displacement of low income and minority neighborhoods, which are disproportionately affected by climate change.
-
-					To address and hopefully avoid the issues of indirect displacement, research has influenced my decisions to focus on a design intervention in East Boston, focusing on three areas; Central Square, Logan Airport and Jefferies Point. The stakeholders for this project is a long list, but mainly consists of Environmental Justice organizations, the City of Boston, local institutions and universities, development firms,  field experts such as environmental scientists, non-profit organizations such as N.O.A.H, and Landscape Architecture / Urban Planning firms. 
-
-
-					This design intervention will focus on understanding the environmental history of East Boston and how restoring certain attributes may offer an alternative method to adapt to climate change and protect residents from sea level rise, while ensuring indirect displacement is kept to a minimum. While Boston continues to move forward with their Climate Ready Boston Action Plan, I hope to synthesize alternative plans to restore ecological function in the Logan Airport District, Central Square and portions of Jefferies Point. 
-				</p>
-
-			<h2 style="background-color:#738678;">Precedent Research - The Amsterdam-Rhine Canal System</h2>
-
-				<!--Analysis of the Netherlands Canal System-->
-
-				<h3>What is the Amsterdam-Rhine Canal?</h3>
-
-					<p style="background-color:#ffffee">
-						The Amsterdam-Rhine Canal is Canal System in the Netherlands that runs from Amsterdam, the capital of the country and one of the largest ports, to the main shipping artery of the Rhine. This Canal System was completed in 1952 and is about 45 miles long, leading it to be one of the most heavily used Canal System in Western Europe. 
-					</p>
-
-				<h3>Why is this important?</h3>
-					<p style="background-color:#ffffee">
-						Well, besides being a huge transportation connection, the Amsterdam-Rhine Canal is used for water level reuglations in surrounding polders. When regulating water levels, minimizing flooding and managing available water resources between different stakeholders are both incredibly influential factors. By using the Canal for regulating water levels, they are able to ensure a sufficient volume of ground water and surface water, along with keeping the water quality up to par.
-					</p>
-				<h3>Who Manages the Water?</h3>
-					<p style="background-color:#ffffee">
-						Another great question! Water management in the Netherlands is divided into two main groups. The first is vested in the Rijkswaterstaat, which is essentially a public agency for water management. The Rijkwaterstaat focuses on maintaing dykes, dams, weirs, storm surge barriers, and other methods to address flooding. This may be done through projects such as "Room for Rivers" or the physical construction of secondary channels.
-					</p>
-					<p style="background-color:#ffffee">
-						The other group responsible for water management in the Netherlands are their District Water Boards. These local government organizations are responsible for the regional waters. The main focuses that fall under their jurisdiction include ensuring water is clean in order to keep fish stocks up, along with protecting from floods and making sure that farmers have enough water for their crops.
-					</p>
-				<h3>Room for Rivers Program</h3>
-					<p style="background-color:#ffffee">
-						Along with their water management system that is already in place, the Netherlands realizes that being prepared for climate change relies on being proactive and this lead to the creation of Room for Rivers. The main goal of the program is to manage higher water levels by lowering the levels of flood plains, creating water buffers, relocating levees, increasing the depths of side channels and the construction of side passses or secondary channels.
-					</p>
-					<p style="background-color:#ffffee">
-						The key is to restore the natural floodplain through 3 objectives:
-						<ol type = "1" style="background-color:#ffffee">
-							<li>The Rhine will cope with 16,000 cubic meters of water per second without flooding</li>
-							<li>The measures to increase safety will increase the overall environmental quality</li>
-							<li>The extra room for rivers that will be needed will be made permanently available</li>
-						</ol>
-					</p>
-
-			<h2 style="background-color:#738678;">Precedent Research - The LA River</h2>
-
-			<!--Analysis of the LA River-->
-
-			<h3></h3>
 </html>
