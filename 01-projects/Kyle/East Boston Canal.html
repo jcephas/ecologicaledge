@@ -14,6 +14,82 @@
 		li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: sans-serif;}
 		li a:hover {background-color: gray;}
 		.active {background-color: #555;}
+
+							
+
+								#myImg {border-radius: 5px;cursor: pointer;transition: 0.3s;}
+								#myImg:hover {opacity: 0.7;}
+
+								/* The Modal (background) */
+								.modal {
+								  display: none; /* Hidden by default */
+								  position: fixed; /* Stay in place */
+								  z-index: 1; /* Sit on top */
+								  padding-top: 100px; /* Location of the box */
+								  left: 0;
+								  top: 0;
+								  width: 100%; /* Full width */
+								  height: 100%; /* Full height */
+								  overflow: auto; /* Enable scroll if needed */
+								  background-color: rgb(0,0,0); /* Fallback color */
+								  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+								}
+
+								/* Modal Content (Image) */
+								.modal-content {
+								  margin: auto;
+								  display: block;
+								  width: 80%;
+								  max-width: 700px;
+								}
+
+								/* Caption of Modal Image (Image Text) - Same Width as the Image */
+								#caption {
+								  margin: auto;
+								  display: block;
+								  width: 80%;
+								  max-width: 700px;
+								  text-align: center;
+								  color: #ccc;
+								  padding: 10px 0;
+								  height: 150px;
+								}
+
+								/* Add Animation - Zoom in the Modal */
+								.modal-content, #caption {
+								  animation-name: zoom;
+								  animation-duration: 0.6s;
+								}
+
+								@keyframes zoom {
+								  from {transform:scale(0)}
+								  to {transform:scale(1)}
+								}
+
+								/* The Close Button */
+								.close {
+								  position: absolute;
+								  top: 15px;
+								  right: 35px;
+								  color: #f1f1f1;
+								  font-size: 40px;
+								  font-weight: bold;
+								  transition: 0.3s;
+								}
+
+								.close:hover,
+								.close:focus {
+								  color: #bbb;
+								  text-decoration: none;
+								  cursor: pointer;
+								}
+
+								/* 100% Image Width on Smaller Screens */
+								@media only screen and (max-width: 700px){
+								  .modal-content {
+								    width: 100%;
+								  }
+								}
 		
 
 	</style>
@@ -39,6 +115,7 @@
 				
 				<!--Abstract-->
 				<img class="organize"; src="https://www.sasaki.com/wp-content/uploads/2019/10/ClimateReadyBoston_Page_10_large-1000x608.jpg"; style="width: 400px; height: 270px; float: right; opacity: .8;border: 5px solid #555">
+
 				<p class="organize">
 					Today, cities are facing a multitude of issues spanning from social justice movements to the rising sea levels caused by climate change. These issues are forcing cities to rethink how urban centers are designed and how these new approaches will affect the majority of residents living within the city limits. Challenges such as housing equity and allowing for new private development to take place puts pressure on finding a balance between the two and climate change forces cities to take drastic measures to prepare for flooding and any displacement it may bring. In East Boston, the controversial redevelopment of Suffolk Downs exemplifies these scenarios by bringing in expensive housing units and the promise of resilient open space.
 
@@ -68,8 +145,77 @@
 					In the next image, we see a dot map that represents the racial density in East Boston in relation to the projected Sea-Level Rise (SLR). Climate change is a natural phenomenon that is affecting everyone globally, however marginalized communities who are often contributing less to climate change, see the brunt of it all. East Boston has an approximate total of 45,000 residents of which 58% are Hispanic, 32% are White, 4% are Asian and 2% are Black. Understanding these numbers is incredibly important when planning for climate adaptation to avoid displacement of the community we are trying to protect.
 				</p>
 				<p class="organize">
-					The next set of images are focused on the project area running from Jefferies Point to the Airport. In this analysis, GIS data has been used to get a better understanding of the elevation profile, tree density, where sea level rise will be occuring, and how developed land will be affected. The elevation profile may not seem like an important piece to understand, but being able to see the topography can help point us in a direction where we can use the natural flow, guiding us in the planning of the East Boston Canal System. Tree Density is another critical piece of information because every single tree that is planted helps us develop stormwater management infrastructure. 
+					The next set of images are focused on the project area running from Jefferies Point to the Airport. In this analysis, GIS data has been used to get a better understanding of the elevation profile, tree density, where sea level rise will be occuring, and how developed land will be affected. The elevation profile may not seem like an important piece to understand, but being able to see the topography can help point us in a direction where we can use the natural flow, guiding us in the planning of the East Boston Canal System. Tree Density is another critical piece of information because every single tree that is planted, helps us develop stormwater management infrastructure. East Boston currently has the lowest canopy coverage in all of Boston at around 17% and with this information, we can figure out what areas to focus on greening to help promote water and air filtration. Lastly, seeing what businesses, industries and how many residential areas will be affected by flooding can help steer us to develop a project that will protect these areas, but also help us determine how much displacement will occur.
 				</p>
+
+			<h2>Stakeholders</h2>
+				<p class="organize">
+					The range of stakeholders for this project is extensive. When dealing with a project of this scale, there are many parties to be examined and this includes...
+				</p>
+
+					<!--STAKEHOLDER PHOTO-->
+					<!--STAKEHOLDER PHOTO-->
+					<!--STAKEHOLDER PHOTO-->
+
+									 <!-- Trigger the Modal -->
+								<img id="myImg" src="/Users/kylewire/Documents/GitHub/ecologicaledge/01-projects/Kyle/Imgs/Stake.jpg" alt="Stakeholder in East Boston" style="width: 400px; height: 270px; float: right; opacity: .8;border: 5px solid #555; margin: 20px">
+
+									<!-- The Modal -->
+								<div id="myModal" class="modal">
+
+					 				 <!-- The Close Button -->
+					 				 <span class="close">&times;</span>
+
+					  				<!-- Modal Content (The Image) -->
+					 				 <img class="modal-content" id="img01">
+
+					 				 <!-- Modal Caption (Image Text) -->
+					 				 <div id="caption"></div>
+								</div> 
+
+								<script>
+									// Get the modal
+								var modal = document.getElementById("myModal");
+
+								// Get the image and insert it inside the modal - use its "alt" text as a caption
+								var img = document.getElementById("myImg");
+								var modalImg = document.getElementById("img01");
+								var captionText = document.getElementById("caption");
+								img.onclick = function(){
+								  modal.style.display = "block";
+								  modalImg.src = this.src;
+								  captionText.innerHTML = this.alt;
+								}
+
+								// Get the <span> element that closes the modal
+								var span = document.getElementsByClassName("close")[0];
+
+								// When the user clicks on <span> (x), close the modal
+								span.onclick = function() {
+								  modal.style.display = "none";
+								} 
+								</script>
+
+
+
+
+
+				<ol type="1">
+					<li>The City of Boston (Mayor Marty Walsh, Urban Planners, Landscape Architects, etc.)</li>
+					<li>Developers (HYM Investment, Davis Companies, Acorn Development, etc.)</li>
+					<li>Insitutions (Northeastern University, Harvard University, Boston University, etc.)</li>
+					<li>Scientist (Environmental, Biologists, Geophysists, etc.)</li>
+					<li>Non-Profit Organizations (N.O.A.H, East Boston Neighborhood Health Center, Crossroads Shelter, etc.)</li>
+				</ol>
+
+				<p class="organize">
+					
+				</p>
+
+
+
+
+
 
 
 
