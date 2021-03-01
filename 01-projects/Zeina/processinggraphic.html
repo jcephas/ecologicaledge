@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<style>
+		
+		.organize {margin: 20px;}
+		h1 {color:#a37f66; background-color:white ; font-family: sans-serif; text-align: center;}
+		h2 {color:#b98f72; font-family: sans-serif; text-align: center;}
+		h3 {color:#b98f72;font-family: sans-serif;text-align: left;}
+		h4 {color:white; font-family: sans-serif; text-align: center;}
+		p  {color:#b98f72; opacity: .8; text-align: center;text-align: justify; font-family: sans-serif;}
+		footer{position: fixed; left: 0; bottom: 0; width: 100%; color:white; text-align: justify;font-family: sans-serif;}
+		ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;color:#b98f72 ;}
+ 
+	</style>
+	<title>PROCESSING GRAPHIC</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+	</head>
+<body>
+	<h1>BRIDGING THE GAP BETWEEN THE ECOLOGICAL + INDUSTRIAL- Processing Graphic</h1>
+	 <h3><ul>
+  		<li><a href="file:///Users/zooz/Desktop/MARCHI/Semester2/Studio/GitHub/ecologicaledge/01-projects/Zeina/index.html">Home</a></li>
+  		<li><a href="file:///Users/zooz/Desktop/MARCHI/Semester2/Studio/GitHub/ecologicaledge/01-projects/Zeina/methods.html">Research Methods</a></li>
+  		<li><a class=active href="file:///Users/zooz/Desktop/MARCHI/Semester2/Studio/GitHub/ecologicaledge/01-projects/Zeina/processinggraphic.html">Processing Graphic</a></li>
+  		<li><a>Data Base</a></li>
+  		<li style="float:right"><a href="mailto:alkhaja.z@northeastern.edu">Contact</a></li>
+	</ul></h3>
+	<h3>The pink ellipse represents a parcel of land or the general East Boston Community. The Green and Grey ellipses modulate to represent the ratio of green/planted spaces to industrial/hardscapes. This is an important infographic to play with the idea of how individuals + communities could begin to create interventions in their surrounding spaces.</h3>
+
+	<script type="application/Processing">
+		void setup() {
+		size(1900,1000);
+		noStroke();
+	}
+	void draw(){
+	float x= mouseX;
+	float y= mouseY;
+	float ix= width-mouseX;
+	float iy= height-mouseY;
+	background(255,255,255);
+	fill(178,176,172,128);
+  ellipse(x, height/2, y, y);
+  fill(136,183,146,128);
+  ellipse(ix, height/2, iy, iy);
+  fill(217,195,193)
+  ellipse(950,500,200,200);
+
+}
+
+	</script>
+
+<canvas><!-- The processing will hopefully render here now.--></canvas>
+
+	<footer style="text-align: center;opacity: .5;color:#b98f72; margin-top: 5px; background-image:url('images/EastBostonMap.png');">Northeastern University - Masters Research Project - Zeina Alkhaja 2021</footer>
+
+</body>
+</html>
+
