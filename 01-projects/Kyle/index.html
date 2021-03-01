@@ -4,16 +4,16 @@
 	<style>
 		
 		.organize {margin: 20px;}
-		h1 {color: white; background-color: ; font-family: sans-serif; text-align: center;}
-		h2 {color: white; background-color: #8ca392; font-family: sans-serif; text-align: center;}
-		h3 {color:#ffffee;font-family: sans-serif;text-align: left;}
-		p  {color:#ffffee; opacity: .8; text-align: center;text-align: justify; font-family: sans-serif;}
-		ol {color:#ffffee; opacity: .8; text-align: left; font-style: italic;}
-		ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+		h1 {color: #000000; background-color: ; font-family: sans-serif; text-align: center;}
+		h2 {color: #ffffff; background-color: #000000; font-family: sans-serif; text-align: center;}
+		h3 {color:#000000;font-family: sans-serif;text-align: left;}
+		p  {color:#000000; opacity: .8; text-align: center;text-align: justify; font-family: sans-serif;}
+		ol {color:#000000; opacity: .8; text-align: left; font-style: italic;}
+		ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;background-color: #ffffff ;}
 		li a {float: left;}
-		li a {display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; font-family: sans-serif;}
-		li a:hover {background-color: #111}
-		.active {background-color:#91835c;}
+		li a {display: block; color: rgba(0,0,0,0.6); text-align: center; padding: 14px 16px; text-decoration: none; font-family: sans-serif; font-size: 17px; line-height: 1.47059; letter-spacing: -.022em}
+		li a:hover {color:rgba(0,0,0);}
+		.active {color: #000000;}
 
 	</style>
 		<title>Home</title>
@@ -45,7 +45,7 @@
 			
 				
 
-		<body style="background-color:#738678">
+		<body style="background-color:#ffffff">
 		<script type="application/processing">
 
 		int num = 30;
@@ -64,14 +64,14 @@
 		}
 
 		void draw() {
-  			background(#738678); 
+  			background(#ffffff); 
 
 
   
   			for(int n=0; n<num; n++){
     		float alpha = map(y[n], 0, height, 0, 255);
     
-   			stroke(#add8e6, alpha); 
+   			stroke(#000000, alpha); 
     		strokeWeight(sW);
     		line(0,y[n],width,y[n]);
     
@@ -79,9 +79,9 @@
     		if (y[n]>height) y[n] = 0;
  	 		}
   
-  			stroke(#738678); 
+  			stroke(#ffffff); 
   			strokeWeight(height/7);
-  			fill(#738678); 
+  			fill(#ffffff); 
   			ellipse(width/3, height/2, height/2, height/2); 
   			ellipse(1000, height/4, height/4, height/4); 
   			ellipse(1000, width/2, height/3, height/3); 
@@ -90,6 +90,6 @@
 	<canvas><!--Processing Code will hopefully show up--></canvas>
 
 
-	<p style="text-align: center;opacity: .5;color: white; margin-top: 5px">Northeastern University - Masters Research Project - Kyle Wire 2021</p>
+	
 	</body>
 </html>
