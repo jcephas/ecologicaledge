@@ -1,3 +1,15 @@
-Be sure to name your main file 'index.html' so it opens as the default file for this folder.
+# Studio_Draft
+This code was generated using AnimaApp.com. 
+Anima allows teams to innovate faster by converting design to code, automatically.
 
-Later, once you develop your project, replace this README text with a brief summary of your project.
+## Are you a developer?
+This code is a high-fidelity prototype.
+Get developer-friendly React or HTML/CSS code for this project at:
+https://projects.animaapp.com/team/studio-xhnwpmz/project/4tOGaOd?utm_source=package-code
+You might need to request access.
+
+## Got feedback?
+Feedback on code quality is welcome at code@animaapp.com.
+
+Have a creative day,
+Anima team
