@@ -4,6 +4,8 @@
 <head>
 	<link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.0/processing.min.js"></script>
+
 	<style>
 
 	html {
@@ -84,6 +86,62 @@
 		<img src="Images/Gomez-04-SiteNarrative-02.jpg" style="width: 680px; height: 550px">
 		An architect’s ultimate purpose is to create spaces for the user, and as such the main voices in the development of spatial design should be of those who inhabit the space. Spatial equity, especially in quickly developing urban centers like Boston, needs to become a priority. Minority communities are displaced by large waves of gentrification, and people are made to feel like they do not belong in spaces that they inhabit daily. Ensuring that people are intrinsically involved in development processes allows for the preservation and growth of communities. Lorem Ipsum </p>
 <!--this text is not actually the right one, make sure to edit-->
+
+	<script type="application/Processing">
+		size(500,400);
+
+	void setup(){
+	background(56,84,85);
+	text("East Boston Public Space Network",280,340);
+	}
+	void draw(){
+	stroke(0,168,166);
+	strokeWeight(4)
+	line(66,315,62,228);
+	line(62,228,188,168);
+	line(66,315,188,168);
+	fill(213,214,172);
+	stroke(213,214,172);
+	strokeWeight(1)
+	ellipse(66,315,26,26);
+	ellipse(62,228,26,26);
+	ellipse(188,168,26,26);
+	}
+	if mousePressed(){
+	stroke(0,168,166);
+	strokeWeight(4)
+	line(62,228,62,104);
+	line(62,104,114,104);
+	fill(255,201,5);
+	stroke(255,201,5);
+	strokeWeight(1)
+	rect(114,76,20,28);
+	triangle(114,76,134,76,114,70);
+	text("Proposed Site",150,50);
+	}
+	void keyPressed() {
+	stroke(112,144,136);
+	strokeWeight(2);
+	line(141,372,66,315);
+	line(188,168,336,90);
+	line(336,90,464,33);
+	fill(213,214,172);
+	stroke(213,214,172);
+	strokeWeight(1)
+	ellipse(66,315,26,26);
+	ellipse(62,228,26,26);
+	ellipse(188,168,26,26);
+	fill(214,255,232);
+	stroke(214,255,232);
+	ellipse(141,372,7,7);
+	ellipse(336,90,7,7);
+	ellipse(464,33,7,7);
+	text("Additional Potential Sites",300,200);
+	}
+
+	</script>
+	<canvas></canvas>
+
 
 </body>
 </html>
