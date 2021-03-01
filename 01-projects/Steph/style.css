@@ -119,18 +119,28 @@ p {
 	height: 80px;
 }
 
-.img-stakeholders {
-	width: 1000px;
+.img-relationships {
+	width: 500px;
+	height: 420px;
+	padding: 5px;
+	/*border: 2px solid white;*/
+	float: right;
+	margin-right: 50px;
+	margin-top: 80px;
+}
+
+.img-relationships h3{
+	text-align: center;
+}
+
+.relationships {
+	width: 500px;
 }
 
 .img-urbanstrategies {
 	width: 600px;
 }
 
-.img-stk-location {
-	float: left;
-	margin-left: 350px;
-}
 
 .img-mvmt-safety {
 	width: 800px;
@@ -139,6 +149,42 @@ p {
 .img-mvmt-location {
 	float: right;
 	margin-right: 30px;
+}
+
+.img-impact {
+	width: 400px;
+	height: 420px;
+	padding: 5px;
+	/*border: 2px solid white;*/
+	float: left;
+	margin-left: 50px;
+	margin-top: 80px;
+}
+
+.img-impact h3{
+	text-align: center;
+}
+
+.impact {
+	width: 400px;
+}
+
+.img-power {
+	width: 600px;
+	height: 420px;
+	padding: 5px;
+	/*border: 2px solid white;*/
+	float: right;
+	margin-right: 20px;
+	margin-top: 80px;
+}
+
+.img-power h3{
+	text-align: center;
+}
+
+.power {
+	width: 600px;
 }
 
 /*.main {
