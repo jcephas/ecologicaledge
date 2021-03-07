@@ -6,7 +6,7 @@
 		</head>
 		<style>
 			body{
-				background-image: url("images/Background.jpg");
+				background-image: url("images/Background-02.jpg");
 			}
 			h1{
 				color: white;
@@ -16,6 +16,16 @@
 				font-size: 80px;
 				line-height: 70px;
 				margin: 30px;
+				text-align: right;
+			}
+			h2{
+				color: white;
+				font-family: Futura;
+				font-style: normal;
+				font-weight: bold;
+				font-size: 40px;
+				line-height: 20px;
+				margin: 50px;
 				text-align: right;
 			}
 			p{
@@ -29,27 +39,117 @@
 			.mango{
 				margin: 0px 0px 0px 50px;
 			}
+			.orange{
+				margin: 10px 50px 10px 50px;
+			}
 			.short{
 				width: 800px;
 			}
+			.shorter{
+				margin: 50px 50px 0px 500px;
+			}
+			#SiteNarrative{
+				text-align: right;
+			}
 		</style>
 		<body>
+			<script type="application/Processing">
+				void setup() {
+					size(800,300);
+					stroke(255);
+					fill(255);
+					background(149,192,222);
+				}
+				void draw() {
+					strokeWeight(4);
+					fill(255);
+					line(32.5,275,127.48,275);
+					line(138, 275, 141,275);
+					line(152, 275, 155,275);
+					rect(55.9, 210.7, 24.6, 35.3);
+					line(166, 275, 324, 275);
+					line(335, 275, 338, 275);
+					line(349, 275, 352, 275);
+					line(362, 275, 365, 275);
+					line(375, 275, 767.5, 275);
+					line(498, 192, 498, 158);
+					line(498, 158, 574, 86);
+					line(574, 86, 721, 158);
+					line(721, 158, 721, 274);
+					if (mouseX>30) {
+						rect(217.5, 196.8, 27.5, 27.5);
+						rect(217.5, 226.6, 27.5, 48.3);
+						rect(247.3, 196.8, 8.6, 78.1);
+						rect(283.8, 256.8, 9, 18);
+						noFill();
+						stroke(255);
+						strokeWeight(3);
+						rect(254, 245.1, 23.6, 29.8);
+						noStroke();
+						fill(241,230,117);
+						rect(200,222,10,50.5);
+						} 
+					if (mouseX>600) {
+						noStroke();
+						fill(255);
+						rect(406, 256, 9, 18);
+						rect(427, 256, 9, 18);
+						rect(439, 256, 9, 18);
+						rect(451, 256, 9, 18);
+						rect(463, 256, 9, 18);
+						rect(475, 256, 9, 18);
+						rect(487, 256, 9, 18);
+						rect(499, 256, 9, 18);
+						rect(511, 256, 9, 18);
+						rect(523, 256, 9, 18);
+						rect(535, 256, 9, 18);
+						rect(547, 256, 9, 18);
+						rect(559, 256, 9, 18);
+						rect(571, 256, 9, 18);
+						rect(593, 256, 9, 18);
+						rect(661, 196.8, 27.5, 27.5);
+						rect(661, 226.6, 27.5, 48.3);
+						rect(691, 196.8, 8.6, 78.1);
+						noFill();
+						stroke(255);
+						strokeWeight(3);
+						rect(419, 245.1, 169, 29.8);
+						noStroke();
+						fill(241,230,117);
+						rect(439,222,10,50.5);
+						rect(511,222,10,50.5);
+						rect(571,222,10,50.5);
+						rect(630,222,10,50.5);
+						} 
+				noStroke();
+				fill(241,230,117);
+				rect(50,222,10,50.5);
+				}
+			</script>
+			<canvas></canvas>
 			<div id="header">
-				<img src="images/PS_diagram.png"/>
+				<!--img src="images/PS_diagram.png"/-->
 				<h1>Serving Up Community</h1>
 			</div>
 
 			<div id="abstract">
-				<p> Institutionalized racism effects the well-being of minority groups every day. This manifests itself in issues regarding income, housing, energy insecurity, health care, and food insecurity. When systemic barriers overlap, you are left with generational poverty that is only getting harder to break out of. With the COVID-19 Pandemic highlighting and exacerbating these issues, it is important to recognize and tackle these problems now rather than continue to let them go untreated. In East Boston, Latinx peoples have the highest rate of food insecurity of the different races/ethnicities studied and 59% of the participants lived in food-insecure households. Mutual Aid is described as “solidarity, not charity” and allows for communities to create sustainable networks to invest in themselves. But how can mutual aid manifest itself in the built environment to create sustainable action? Mutual aid networks like the Young Lords Garbage Offensive and the Black Panthers Breakfast Program, are examples of a community’s ability to stand up to lack of physical infrastructure with social infrastructure. These networks existed as programming and rarely had physical spaces dedicated to public meeting. This is the same for most of the community work done by stakeholders NUBE, Eastie Farms, Cosecha, and Empower East Boston. Spacial installations are usually fold-up tables that don’t support the networks the way that they could. The residents of East Boston are separated from their community infrastructure and to change this I propose reclaiming empty lots to create community land, like the precedent of Eastie Farms. This would give residents the foundation of space and ownership to then build their relationships and mutual aid network. This would happen in the Eagle Hill and Orient Heights communities as these are the most at risk. Residents would be able to use these spaces to tend to their existing neighborly/communal interactions and build a sustainable mutual aid network.</p> 
+				<p> Institutionalized racism effects the well-being of minority groups every day. This manifests itself in issues regarding income, housing, energy insecurity, health care, and food insecurity. When systemic barriers overlap, you are left with generational poverty. With the COVID-19 Pandemic highlighting and exacerbating these issues, it is important to recognize and tackle these problems now. In East Boston, Latinx peoples have the highest rate of food insecurity of the different races/ethnicities studied and 59% of the EBHNC study participants lived in food-insecure households. While community cannot solve these issues, promoting a foundation of mutual aid in these under-served communities can help to support mental health and strengthen the neighborly bonds that we need to survive. Mutual Aid is described as “solidarity, not charity” and allows for communities to create sustainable networks to invest in themselves. The pandemic has garnerated a robust response to food insecurity but the current systems rely on flimsy infrastructure and do not have dedicated spaces beyond parking lots and community center rooms. So how can we reinterpret these historically charity-based models to embrace the concept of mutual aid? Mutual aid networks like the Young Lords Garbage Offensive and the Black Panthers Breakfast Program, are examples of a community’s ability to stand up to lack of physical infrastructure with social infrastructure. These networks existed as programming and rarely had physical spaces dedicated to public meeting. This is the same for most of the community work done by stakeholders NUBE, Eastie Farms, Cosecha, and Empower East Boston. Spacial installations are usually fold-up tables that don’t provide stability or create meaningful infrastructure. The residents of East Boston are separated from their community infrastructure and to change this I propose reclaiming empty lots to create community land, like the precedent of Eastie Farms. This would give residents the foundation of space and ownership to then build their relationships and mutual aid network. This would happen in the Eagle Hill and Orient Heights communities as these are the most at risk. The main water front site will house the Community Cafeteria while the more scalar installations will populate the city's streets. Residents will be able to use these spaces to tend to their existing neighborly/communal interactions and build a sustainable mutual aid network.</p> 
 			</div>
 			<div id="Stakeholder">
-				<img class="mango" src="images/Stakeholders.jpg"/>
+				<img class="mango" src="images/Stakeholder.png"/>
 				<p class="short"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 			</div>
 			<div id="SiteNarrative">
-				<img class="mango" src="images/Final_Map_1"/>
-				<img class="mango" src="images/Final_Map_2"/>
-				<p class="short"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				<img class="orange" src="images/maps-01.png"/>
+				<img class="orange" src="images/maps-02.png"/>
+				<img class="orange" src="images/maps-03.png"/>
+				<p class="shorter"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+				<h2>Conceptual Site Plan</h2>
+				<img class="orange" src="images/maps-04.png"/>
+				<h2>Network + Inspo</h2>
+				<img class="orange" src="images/inspo.png"/>
+				<img class="orange" src="images/scalar-03.png"/>
+				<p class="shorter"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
 			</div>
 
 			<!--Needs to replace graphics with up to date stuff and I hate this layout-->
