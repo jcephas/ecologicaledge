@@ -3,6 +3,7 @@
 	padding: 0;
 }
 
+
 body{
 	width: 100%;
 	height: 1400px;
@@ -189,34 +190,31 @@ p {
 
 .img-leparti{
 	float: right;
-	margin-right: 80px;
+	margin-right: 300px;
 }
 
 .leparti {
 	width: 400px;
 }
 
-.img-pamphlet{
+.img-pamphlet-1{
 	position: absolute;
 	float: left;
 	margin-top: 600px;
-	margin-left: 80px;
+	margin-left: 100px;
+}
+
+.img-pamphlet-2{
+	position: absolute;
+	float: left;
+	margin-top: 600px;
+	margin-left: 900px;
 }
 
 .pamphlet{
-	width: 400px;
+	width: 700px;
 }
 
-.img-urbanplanning{
-	position: absolute;
-	float: left;
-	margin-top: 600px;
-	margin-left: 650px;
-}
-
-.urbanplanning{
-	width: 400px;
-}
 
 /*.main {
 	float: left;
@@ -227,14 +225,19 @@ p {
 .urban-description{
 	position: absolute;
 	float: left;
-	margin-top: 300px;
-	margin-left: 550px;
+	margin-top: 900px;
 }
 
 .pamphlet-description{
 	position: absolute;
 	float: left;
 	margin-top: 300px;
+}
+
+.long-box {
+	float: left;
+	margin: auto 0;
+	
 }
 
 .box {
@@ -282,4 +285,167 @@ p {
 .box-stakeholders p{
 	text-align: none;
 	padding: 5px;
+}
+
+/*Pamphlet-Design-1 The Outside Side*/
+
+#myImg {
+	position: absolute;
+	width: 600px;
+	left: 100px;
+	margin-top: 600px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}
+
+/*Pamhplet-Design-2 The Interior Side*/
+
+#myImg2 {
+	position: absolute;
+	width: 600px;
+	left: 800px;
+	margin-top: 600px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+.modal2 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content2, #caption2 {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to (transform: scale(1)}
+}
+
+.close2 {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px){
+	.modal-content2 {
+		width: 100%;
+	}
 }
