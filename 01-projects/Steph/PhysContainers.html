@@ -45,7 +45,7 @@
 
 <section class="pamphlet-description">
 	<h2>PAMPHLET</h2>
-	<div class="box">
+	<div class="long-box">
 		<p>This is the human scale map of resources and contacts. The purpose of this pamphlet is to help undocumented immigrants know who, what and where the existing resources are within their city or neighborhood. It will contain the map of Network of Safety, Know Your Rights information, as well as current policies that East Boston is under that work against or in their favor. As well as a link to people and organizations that can help. This pamphlet will be distributed through safe locations in the community</p>
 	</div>
 </section>
@@ -55,16 +55,63 @@
 <div class="box"> 
 	<p>The safety of undocumented immigrants, lies in their invisibility. It may seem like the jurisdiction that lies on the fate of undocumented immigrants is that of national politics, but that is not the case. Subnational governments, policymakers, planners and communities can, and should, do more to secure their safety. Designers and urban planners can also play a big role in this - in designing a safe city. I will talk about a few theories about urban planning for undocumented immigrants that could be applied to the urban setting, using East Boston as a case study of possible application. I will also present suggestions to their translations into physical space.</p>
 	</div>
-
 </section>
 
-<div class="img-pamphlet">
-	<img class="pamphlet" src="images/pamphlet.png">
+<img id="myImg" src="images/pamphlet-design-1.jpg" alt="Pamphlet Design Outside">
+
+<div id="myModal" class="modal">
+	<span class="close">&times;</span>
+	<img class="modal-content" id="img01">
+	<div id="caption"></div>
 </div>
 
-<div class="img-urbanplanning">
-	<img class="urbanplanning" src="images/urbanplanning.png">
+<img id="myImg2" src="images/pamphlet-design-2.jpg" alt="Pamphlet Design Inside">
+
+<div id="myModal2" class="modal2">
+	<span class="close2">&times;</span>
+	<img class="modal-content2" id="img02">
+	<div id="caption2"></div>
 </div>
+
+<script> 
+	var modal = document.getElementById("myModal");
+
+	var img = document.getElementById("myImg");
+	var modalImg = document.getElementById("img01");
+	var captionText = document.getElementById("caption");
+	img.onclick = function(){
+		modal.style.display = "block"
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span = document.getElementsByClassName("close")[0];
+
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+
+</script>
+
+<script>
+	var modal = document.getElementById("myModal2");
+
+	var img = document.getElementById("myImg2");
+	var modalImg = document.getElementById("img02");
+	var captionText = document.getElementById("caption2");
+	img.onclick = function(){
+		modal.style.display = "block";
+		modalImg.src = this.src;
+		captionText.innerHTML = this.alt;
+	}
+
+	var span = document.getElementsByClassName("close2")[0];
+
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
+</script>
+
 
 <!--<script type="application/Processing">
 		PImage img;
@@ -95,11 +142,9 @@
 </script>-->
 <canvas><!--The Processing code will hopefully render here now.--></canvas>
 
+<div class="img-urbanstrategies">
+	<img class="urbanstrategies" src="images/urbanstrategies.png">
+</div>
+
 </body>
 </html>
-
-	<!--<div class="img-location">
-		<img class="img-urbanstrategies" src="images/urbanstrategies.png">
-	</div>-->
-
-
