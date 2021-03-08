@@ -3,9 +3,10 @@
 	padding: 0;
 }
 
+
 body{
 	width: 100%;
-	height: 1400px;
+	height: 1350px;
 	color: #fff;
 	/*background: linear-gradient(#001432, #198c78);
 	background-size: cover; 
@@ -137,18 +138,15 @@ p {
 	width: 500px;
 }
 
-.img-urbanstrategies {
-	width: 600px;
-}
-
 
 .img-mvmt-safety {
-	width: 800px;
+	width: 1000px;
 }
 
 .img-mvmt-location {
-	float: right;
-	margin-right: 30px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
 }
 
 .img-impact {
@@ -188,35 +186,50 @@ p {
 }
 
 .img-leparti{
+	display: block;
 	float: right;
-	margin-right: 80px;
+	margin-right: 300px;
 }
 
 .leparti {
 	width: 400px;
 }
 
-.img-pamphlet{
+.leparti-stars {
+	width: 400px;
+}
+
+.leparti-bare {
+	float: right;
+	margin-right: 100px;
+	width: 400px;
+	margin-top: 10px;
+}
+
+.physicalcontainers h2{
+	left-margin: 300px;
+
+}
+
+
+.img-pamphlet-1{
 	position: absolute;
 	float: left;
-	margin-top: 600px;
-	margin-left: 80px;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+.img-pamphlet-2{
+	position: absolute;
+	float: left;
+	margin-top: 400px;
+	margin-left: 900px;
 }
 
 .pamphlet{
-	width: 400px;
+	width: 700px;
 }
 
-.img-urbanplanning{
-	position: absolute;
-	float: left;
-	margin-top: 600px;
-	margin-left: 650px;
-}
-
-.urbanplanning{
-	width: 400px;
-}
 
 /*.main {
 	float: left;
@@ -227,14 +240,33 @@ p {
 .urban-description{
 	position: absolute;
 	float: left;
-	margin-top: 300px;
-	margin-left: 550px;
+	margin-top: 900px;
 }
 
 .pamphlet-description{
 	position: absolute;
 	float: left;
 	margin-top: 300px;
+}
+
+.short-box {
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 600px;
+
+}
+
+.long-box {
+	float: left;
+	margin-top: 100px;
+	margin-left: 100px;
+	width: 1000px;
+
+}
+
+.long-box h2 {
+	margin-right: 0px;
 }
 
 .box {
@@ -268,7 +300,7 @@ p {
 	float: left;
 	width: 200px;
 	height: 175px;
-	margin-left: 100px;
+	margin-left: 60px;
 	margin-top: 10px;
 	padding: 5px;
 	border: 2px solid white;
@@ -282,4 +314,179 @@ p {
 .box-stakeholders p{
 	text-align: none;
 	padding: 5px;
+}
+
+.img-urbanstrategies {
+	position: absolute;
+	float: left;
+	margin-top: 1000px;
+	margin-left: 300px;
+}
+
+.urbanstrategies {
+	width: 1000px;
+	background-color: rgba(225,225,225,.3);
+}
+
+/*Pamphlet-Design-1 The Outside Side*/
+
+#myImg {
+	position: absolute;
+	width: 600px;
+	left: 100px;
+	margin-top: 600px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}
+
+/*Pamhplet-Design-2 The Interior Side*/
+
+#myImg2 {
+	position: absolute;
+	width: 600px;
+	left: 800px;
+	margin-top: 600px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+.modal2 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content2, #caption2 {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to (transform: scale(1)}
+}
+
+.close2 {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px){
+	.modal-content2 {
+		width: 100%;
+	}
 }
