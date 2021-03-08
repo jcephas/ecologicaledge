@@ -235,9 +235,10 @@ p {
 }
 
 .long-box {
-	float: left;
-	margin: auto 0;
-	
+	margin-top: 200px;
+	margin-left: 100px;
+	width: 1000px;
+
 }
 
 .box {
@@ -285,6 +286,18 @@ p {
 .box-stakeholders p{
 	text-align: none;
 	padding: 5px;
+}
+
+.img-urbanstrategies {
+	position: absolute;
+	float: left;
+	margin-top: 800px;
+	margin-left: 100px;
+}
+
+.urbanstrategies {
+	width: 1000px;
+	background-color: rgba(225,225,225,.3);
 }
 
 /*Pamphlet-Design-1 The Outside Side*/
