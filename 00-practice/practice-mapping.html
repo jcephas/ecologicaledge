@@ -2,10 +2,36 @@
 <html>
 
 <head>
+	<link href="sample.css" rel="stylesheet">
+
+
+	<script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+	<link href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css" rel="stylesheet" />
+
+
 
 </head>
 
 <body>
+	<p>This is an example.</p>
+
+
+	<div id="map" style="width: 700px; height: 800px;"></div>
+	
+	<script>
+	mapboxgl.accessToken = "pk.eyJ1IjoiamNlcGhhcyIsImEiOiJjaW51bmk1NHMxMjNpdHZseXI4M2xpY2Y1In0.XZKIi1fC6Bmosj8iCdwuvA";
+	
+	var map = new mapboxgl.Map({
+    container: "map", // container ID
+    style: "mapbox://styles/jcephas/ckmf8eybp108a17oeg806d3ut", // style URL
+    center: [-74.5, 40], // starting position [lng, lat]
+    zoom: 5 // starting zoom
+
+	});
+
+
+</script>
 
 </body>
 
