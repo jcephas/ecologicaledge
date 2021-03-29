@@ -208,7 +208,6 @@ p {
 
 .physicalcontainers h2{
 	left-margin: 300px;
-
 }
 
 
@@ -228,6 +227,14 @@ p {
 
 .pamphlet{
 	width: 700px;
+}
+
+.img-maprough {
+	float: center;
+}
+
+.maprough {
+	width: 850px;
 }
 
 
