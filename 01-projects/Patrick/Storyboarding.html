@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Storyboarding</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+
+<style>
+
+	h1{
+		padding: 10px 0px 0px 20px;
+	}
+	.first {
+		background-color: #95ACCE;
+		height: 800px;
+	}
+
+	.second {
+		background-color: #b6d964;
+		height: 800px;
+	}
+
+		.third {
+		background-color: #64d9b8;
+		height: 800px;
+	}
+
+</style>
+	
+<body>
+	<div id="section01" class="first">
+		<h1></h1>
+		 <center><img src="Images/210408 Timeline3.svg" style="
+                max-width: 90%px;" /></center>
+
+
+	<div id='map' style='width: 400px; height: 300px;'></div>
+	<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoicG9kYXdzb24iLCJhIjoiY2lwNGplZmNtMDAxdDBpbTBucHlkcmcwcyJ9.ZqOiIvXo6xovUIFOqeQCiw';
+
+	var map = new mapboxgl.Map({
+	container: 'map', // container ID
+	style: 'mapbox://styles/mapbox/streets-v11', // style URL
+	center: [-74.5, 40], // starting position [lng, lat]
+	zoom: 9 // starting zoom
+	});
+	</script>
+
+</body>
