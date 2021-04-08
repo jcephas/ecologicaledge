@@ -75,6 +75,24 @@ h1 {
 	padding: 0 30px;
 }
 
+h2 {
+	font-family: Catamaran;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 800;
+	color: rgb(225,225,225,.8);
+	text-indent: 40px;
+	/*padding: 0 30px;*/
+}
+
+h3 {
+	font-family: Catamaran;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	color: white;
+}
+
 p {
 	font-family: Catamaran;
 	font-size: 14px;
@@ -87,5 +105,109 @@ p {
 	float: right;
 	margin: 80px 100px;
 	width: 400px;
+}
+
+a {
+	float: right;
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Catamaran;
+	font-weight: 300;
+	color: white;
+	padding: 40px 20px;
+}
+
+.stakeholders {
+	background: linear-gradient(#001432, #198c78);
+	height: 2200px;
+}
+
+.stakeholders-margin {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.stakeholders-id {
+	margin-left: 50px;
+}
+
+.box-stakeholders {
+	float: left;
+	width: 200px;
+	height: 175px;
+	margin-left: 60px;
+	margin-top: 60px;
+	padding: 5px;
+	border: 2px solid white;
+}
+
+.box-stakeholders h3 {
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.box-stakeholders p{
+	color: white;
+	text-align: none;
+	padding: 5px;
+}
+
+.text-box {
+	float: right;
+	margin: 200px auto;
+	width: 350px;
+}
+
+.img-impact p{
+	color: white;
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.impact {
+	margin-top: 100px;
+	width: 600px;
+}
+
+.text-box2 {
+	margin: 100px 20px;
+	width: 350px;
+}
+
+.img-relationships p{
+	color: white;
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.relationships {
+	float: right;
+	width: 600px;
+}
+
+.text-box3 {
+	float: right;
+	margin: 125px 0px;
+	width: 350px;
+}
+
+.img-power p{
+	color: white;
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.power {
+	margin-top: 80px;
+	width: 600px;
 }
 
