@@ -1,0 +1,309 @@
+.introDiv {
+  position: relative;
+  margin-bottom: 60px;
+}
+@font-face {
+  font-family: 'nimbus_sans_lregular';
+  src: url('fonts/NimbusSanL-Reg-webfont.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nimbus_sans_lregular_italic';
+  src: url('fonts/NimbusSanL-RegIta-webfont.woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+.splitDiv {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.column {
+  justify-content: center;
+  position: relative;
+}
+.innerColumn {
+  max-width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.splitDivWrapper {
+  height: 90vh;
+}
+.contentText {
+  text-align: center;
+}
+.contentImage {
+  text-align: center;
+}
+.aboutText {
+  text-align: center;
+}
+.contentImageImg {
+  max-width: 100%;
+}
+.EndText {
+  padding-bottom: 0px;
+  padding-top: 100px;
+}
+.contentPane {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ColumnTitles {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  padding-bottom: 50;
+  background-color: white;
+}
+.HalfPageColumnTitle {
+  flex: 50%;
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  height: 50px;
+  position: sticky;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+}
+
+.drawerButton {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.columnWrapper {
+  position: relative;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  flex: 50%;
+  background-color: white;
+  justify-content: center;
+}
+
+.expandDivOnLeft {
+  width: 25px;
+  position: absolute;
+  background-color: blue;
+  height: 25px;
+  right: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+.expandDivOnRight {
+  width: 25px;
+  position: absolute;
+  background-color: blue;
+  height: 25px;
+  left: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+.evenOutDiv {
+  width: 25px;
+  position: absolute;
+  height: 25px;
+  display: none;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s;
+  background-color: green;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -ms-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+}
+
+.collapsibleDiv {
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  transition: max-height 1s ease-out;
+  max-height: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+@keyframes expand {
+  0% {
+    flex: 0.5;
+  }
+  100% {
+    flex: 1;
+  }
+}
+
+@keyframes shrink {
+  0% {
+    flex: 0.5;
+  }
+  100% {
+    flex: 0;
+  }
+}
+@keyframes even {
+  100% {
+    flex: 0.5;
+  }
+}
+
+/*scrollbar*/
+
+div.columnWrapper::-webkit-scrollbar {
+  width: 2px;
+}
+div.columnWrapper::-webkit-scrollbar-thumb {
+  background: grey;
+  border-radius: 10px;
+}
+div.columnWrapper:hover:-webkit-scrollbar {
+  width: 40px;
+}
+
+.coverSliderDiv {
+  height: 100%;
+  width: 0px;
+  position: absolute;
+
+  background-color: blueviolet;
+  z-index: 1000;
+  -webkit-transition: width 1s;
+}
+
+#coverRight {
+  left: 0;
+}
+
+#coverLeft {
+  right: 0;
+}
+
+.dropdownContentWrapper {
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 5s;
+}
+
+.tbl {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.row {
+  display: flex;
+  min-height: 50px;
+}
+.cell {
+  flex: 80;
+  font-family: 'nimbus_sans_lregular';
+  color: white;
+}
+.logoCell {
+  flex: 20;
+  max-height: 200px;
+}
+
+.cell h3{
+  padding-left: 40px;
+}
+.row .logoCell {
+  display: flex;
+  justify-content: center;         /*  center horiz. */
+  align-items: center;             /*  center vert. */
+}
+
+.row .cell {
+  display: flex;        /*  center horiz. */
+  align-items: center;             /*  center vert. */
+}
+.row .cell .logoCell{
+  padding: 5px;
+  box-sizing: border-box;
+}
+.landingInfoDiv{
+  background-color: #5ba3a5;
+}
+
+.landingInfoDiv{
+  color: white;
+}
+.howQuestionDiv{
+  font-family: 'nimbus_sans_lregular_italic';
+}
+.sentenceDiv{
+  font-family: 'nimbus_sans_lregular';
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+
+.peopleTbl {
+  display: flex;
+  flex-direction: column;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.peopleRow {
+  display: flex;
+  min-height: 50px;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.peopleCell {
+  flex: 80;
+  font-family: 'nimbus_sans_lregular';
+  color: white;
+  max-width: 33%;
+  flex-wrap: wrap;
+  display: flex;
+}
+.peopleDiv{
+  background-color: #61996e;
+}
+
+.personalInfoTable{
+  display: flex;
+  flex-direction: row;
+}
+.peoplePic{
+  max-width: 100%;
+}
+
+.personalInfoCell{
+  width: 100%;
+}
+
+.personInnerPicCell{
+  flex: 3;
+}
+
+.personInnerTextCell{
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.personalInfoCellThree{
+  justify-content: flex-end;
+  align-items: flex-end;
+}
