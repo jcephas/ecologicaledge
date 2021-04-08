@@ -1,0 +1,662 @@
+/* screen - summary-page */
+
+.summary-page {
+  align-items: flex-start;
+  background-color: var(--white);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: 10680px;
+  justify-content: flex-start;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .additional-research-a71nxV {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+.summary-page .always-on-and-i-etion-timelines-5on15G {
+  background-color: transparent;
+  bottom: 5px;
+  height: 159px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  width: calc(100.00% + 2px);
+}
+.summary-page .board-uYKrEa {
+  background-color: transparent;
+  height: 843px;
+  object-fit: cover;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 1553px;
+}
+.summary-page .buttons-IcPKRJ {
+  background-color: transparent;
+  height: 40px;
+  position: absolute;
+  right: 140px;
+  top: calc(50.00% - 20px);
+  width: 505px;
+}
+.summary-page .commication-W8LKzq {
+  background-color: transparent;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 388px;
+}
+.summary-page .communication-C61RwL {
+  background-color: rgba(244,247,197,1.0);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .communication-WG4Mie {
+  background-color: transparent;
+  height: 35px;
+  letter-spacing: 0.00px;
+  line-height: 69px;
+  position: absolute;
+  right: calc(49.48% - 96px);
+  text-align: center;
+  top: -18px;
+  white-space: nowrap;
+  width: 194px;
+}
+.summary-page .description-hxAH3I {
+  background-color: transparent;
+  bottom: calc(36.92% - 113px);
+  height: 307px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: 146px;
+  text-align: right;
+  width: 814px;
+}
+.summary-page .description-uYKrEa {
+  background-color: transparent;
+  bottom: calc(36.90% - 113px);
+  height: 307px;
+  left: 140px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  text-align: left;
+  width: 814px;
+}
+.summary-page .design-stats-rafiki-LJKfxL {
+  background-color: transparent;
+  height: 388px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 100%;
+}
+.summary-page .digital-description-C61RwL {
+  background-color: var(--white);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .digital-wireframe-wgg0wG {
+  background-color: var(--white);
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.summary-page .east-boston-network-hxAH3I {
+  background-color: transparent;
+  height: calc(100.00% - 6px);
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 6px;
+  width: 924px;
+}
+.summary-page .ellipse-76-uYKrEa {
+  background-color: rgba(197,218,237,1.0);
+  border-radius: 406px/323.5px;
+  bottom: 42px;
+  height: 647px;
+  position: absolute;
+  right: calc(30.96% - 251px);
+  width: 812px;
+}
+.summary-page .footer-C61RwL {
+  background-color: var(--apricot);
+  flex-shrink: 1;
+  height: 300px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .group-1-uxkIer {
+  background-color: transparent;
+  height: 602px;
+  left: 140px;
+  position: relative;
+  top: calc(50.00% - 301px);
+  width: calc(100.00% - 280px);
+}
+.summary-page .group-2-ioifdr {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+.summary-page .header-C61RwL {
+  background-color: var(--apricot);
+  flex-shrink: 1;
+  height: 150px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .hero-C61RwL {
+  background-color: var(--macaroni-cheese);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .initial-proposal-HSjBkh {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+.summary-page .initial-research-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-3@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 136px;
+}
+.summary-page .logo-favicon-IcPKRJ {
+  background-color: transparent;
+  height: calc(100.00% - 49px);
+  left: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 122px;
+}
+.summary-page .logo-favicon-iPe1yZ {
+  background-color: transparent;
+  height: 101px;
+  left: calc(50.00% - 61px);
+  object-fit: cover;
+  position: absolute;
+  top: calc(50.00% - 50px);
+  width: 122px;
+}
+.summary-page .mass-temp-6yINq5 {
+  background-color: transparent;
+  height: calc(100.00% - 419px);
+  object-fit: cover;
+  position: absolute;
+  right: 140px;
+  top: 210px;
+  width: 812px;
+}
+.summary-page .name-date-iPe1yZ {
+  background-color: transparent;
+  bottom: calc(47.29% - 20px);
+  color: var(--black);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  height: 42px;
+  left: calc(31.10% - 106px);
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: right;
+  white-space: nowrap;
+  width: 341px;
+}
+.summary-page .network-C61RwL {
+  background-color: rgba(197,218,237,1.0);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .overlap-group-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 1860px;
+  margin-top: 0px;
+  position: relative;
+  width: 2214px;
+}
+.summary-page .physcial-bike-2-C61RwL {
+  background-color: var(--macaroni-cheese);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .physcial-bike-C61RwL {
+  background-color: var(--white);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .physical-board-4eduM0 {
+  background-color: transparent;
+  height: 1017px;
+  left: 0px;
+  position: absolute;
+  top: 843px;
+  width: 2214px;
+}
+.summary-page .problem-C61RwL {
+  background-color: transparent;
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .project-info-C61RwL {
+  background-color: var(--macaroni-cheese);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .project-info-W8LKzq {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 388px;
+}
+.summary-page .project-info-data-LJKfxL {
+  background-color: transparent;
+  height: 35px;
+  letter-spacing: 0.00px;
+  line-height: 69px;
+  position: absolute;
+  right: calc(49.38% - 113px);
+  text-align: center;
+  top: -18px;
+  white-space: nowrap;
+  width: 228px;
+}
+.summary-page .rectangle-13-uYKrEa {
+  background-color: rgba(244,247,197,1.0);
+  height: calc(100.00% - 87px);
+  left: 0px;
+  position: absolute;
+  top: 87px;
+  width: calc(100.00% - 294px);
+}
+.summary-page .research-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: calc(44.32% - 75px);
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+.summary-page .schedule-rafiki-5on15G {
+  background-color: transparent;
+  height: 388px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 100%;
+}
+.summary-page .school-iPe1yZ {
+  background-color: transparent;
+  bottom: calc(47.29% - 20px);
+  color: var(--black);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  height: 42px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  right: calc(26.35% - 116px);
+  text-align: left;
+  white-space: nowrap;
+  width: 440px;
+}
+.summary-page .site-title-IcPKRJ {
+  background-color: transparent;
+  bottom: calc(40.72% - 22px);
+  height: 53px;
+  left: 278px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 779px;
+}
+.summary-page .social-interaction-rafiki-WG4Mie {
+  background-color: transparent;
+  height: 388px;
+  left: 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 37px;
+  width: 100%;
+}
+.summary-page .solution-4eduM0 {
+  background-color: rgba(170,205,190,1.0);
+  height: 930px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1920px;
+}
+.summary-page .subtitle-3FSh0O {
+  background-color: transparent;
+  bottom: calc(43.95% - 93px);
+  color: var(--gray);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  height: 211px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .subtitle-6yINq5 {
+  background-color: transparent;
+  bottom: calc(27.54% - 58px);
+  height: 211px;
+  left: 140px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  text-align: center;
+  width: 814px;
+}
+.summary-page .subtitle-wgg0wG {
+  background-color: transparent;
+  bottom: calc(43.95% - 93px);
+  color: var(--gray);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  height: 211px;
+  letter-spacing: 0.00px;
+  line-height: 50px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .summary-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 98px;
+}
+.summary-page .summary-puoRIN {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+.summary-page .timeline-C61RwL {
+  background-color: rgba(170,205,190,1.0);
+  flex-shrink: 1;
+  height: 930px;
+  margin-top: 0px;
+  position: relative;
+  width: 1920px;
+}
+.summary-page .timeline-W8LKzq {
+  background-color: transparent;
+  height: 100%;
+  left: calc(50.00% - 194px);
+  position: absolute;
+  top: 0px;
+  width: 388px;
+}
+.summary-page .timeline-calendar-5on15G {
+  background-color: transparent;
+  height: 35px;
+  letter-spacing: 0.00px;
+  line-height: 69px;
+  position: absolute;
+  right: calc(49.31% - 120px);
+  text-align: center;
+  top: -18px;
+  white-space: nowrap;
+  width: 244px;
+}
+.summary-page .title-3FSh0O {
+  background-color: transparent;
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  top: calc(40.29% - 41px);
+  width: 814px;
+}
+.summary-page .title-6yINq5 {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 82px;
+  font-style: normal;
+  font-weight: 400;
+  height: 287px;
+  left: 140px;
+  letter-spacing: 0.00px;
+  line-height: 82px;
+  position: absolute;
+  text-align: center;
+  top: calc(30.02% - 86px);
+  width: 814px;
+}
+.summary-page .title-VMkvBb {
+  background-color: transparent;
+  bottom: calc(49.58% - 50px);
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .title-hxAH3I {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: 146px;
+  text-align: right;
+  top: calc(34.14% - 34px);
+  width: 814px;
+}
+.summary-page .title-kVA6bF {
+  background-color: transparent;
+  bottom: calc(49.58% - 50px);
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .title-oQxcGL {
+  background-color: transparent;
+  bottom: calc(49.58% - 50px);
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .title-uYKrEa {
+  background-color: transparent;
+  color: var(--white);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  height: 97px;
+  left: 140px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  text-align: left;
+  top: calc(37.07% - 36px);
+  width: 814px;
+}
+.summary-page .title-v1tuPu {
+  background-color: transparent;
+  bottom: calc(49.58% - 50px);
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .title-wgg0wG {
+  background-color: transparent;
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  top: calc(37.76% - 38px);
+  width: 814px;
+}
+.summary-page .title-xVTb4W {
+  background-color: transparent;
+  bottom: calc(43.67% - 44px);
+  height: 101px;
+  letter-spacing: 0.00px;
+  line-height: 60px;
+  position: absolute;
+  right: calc(49.91% - 406px);
+  text-align: center;
+  width: 814px;
+}
+.summary-page .virtual-public-advertisements-LJKfxL {
+  background-color: transparent;
+  bottom: 5px;
+  height: 159px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  width: calc(100.00% + 2px);
+}
+.summary-page .we-did-it-iPe1yZ {
+  background-color: transparent;
+  bottom: calc(14.75% - 3px);
+  color: var(--white);
+  font-family: 'Source Sans Pro', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: 22px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  right: calc(49.89% - 32px);
+  text-align: center;
+  white-space: nowrap;
+  width: 64px;
+}
+.summary-page .with-displays-s-ke-never-before-WG4Mie {
+  background-color: transparent;
+  bottom: 5px;
+  height: 159px;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  width: calc(100.00% + 2px);
+}
