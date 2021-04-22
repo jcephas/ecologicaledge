@@ -9,7 +9,7 @@ body {
 
 .title {
 	background: #071732;
-	height: 800px;
+	height: 850px;
 }
 
 .header {
@@ -41,7 +41,7 @@ section h1 {
 
 .header-text {
 	margin: 0 auto 0 60px;
-	width: 1000px;
+	width: 600px;
 }
 
 .header-text p {
@@ -104,7 +104,7 @@ p {
 .leparti-stars {
 	float: right;
 	margin: 80px 100px;
-	width: 400px;
+	width: 550px;
 }
 
 .scroll-link {
