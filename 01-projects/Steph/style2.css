@@ -9,7 +9,7 @@ body {
 
 .title {
 	background: #071732;
-	height: 800px;
+	height: 850px;
 }
 
 .header {
@@ -40,7 +40,7 @@ section h1 {
 }
 
 .header-text {
-	margin: 0 auto 0 60px;
+	margin: 0 auto 0 250px;
 	width: 1000px;
 }
 
@@ -101,10 +101,10 @@ p {
 	/*text-indent: 30px;*/
 }
 
-.leparti-bare {
+.img-leparti {
 	float: right;
-	margin: 80px 100px;
-	width: 400px;
+	margin: 60px 100px;
+	width: 550px;
 }
 
 .scroll-link {
@@ -247,7 +247,7 @@ a {
 
 .physicalcont {
 	background: #bc97f5;
-	height: 1800px;
+	height: 4000px;
 }
 
 .physicalcont h2 {
@@ -275,6 +275,76 @@ a {
 	font-weight: 200;
 	line-height: 25px;
 }
+
+
+.wisc {
+	width: 500px;
+}
+
+.guide-2 {
+	width: 500px;
+}
+
+.samples-margin {
+	margin: 0 auto 0 275px;
+	width: 1500px;
+}
+
+.samples-images {
+	margin-left: 100px;
+}
+
+.guide-3 {
+	width: 500px;
+}
+
+.guide-4 {
+	width: 500px;
+}
+
+.guide-5 {
+	width: 500px;
+}
+
+.guide-6 {
+	width: 500px;
+}
+
+.guide-7 {
+	width: 500px;
+}
+
+.guide-8 {
+	width: 500px;
+}
+
+.guide-9 {
+	width: 500px;
+}
+
+.samples-together {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+
+.digitalcont{
+	background: white;
+	height: 800px;
+}
+
+.digitalcont-margins {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.digitalcont p{
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
 
 /*Pamphlet-Design-1 The Outside Side*/
 
@@ -440,3 +510,5 @@ a {
 }
 
 /*End of Pamphlet*/
+
+/*Start of Sample Images*/
