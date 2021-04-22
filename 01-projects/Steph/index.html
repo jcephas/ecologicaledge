@@ -24,8 +24,31 @@
 	<body>
 		<section class="title">
 			<div class="img-leparti">
-				<img class="leparti-stars" src="images/leparti-stars.jpg">
+				<script type="application/Processing">
+					PImage img;
+					PImage img2;
 
+					void setup() {
+			 		 size (550, 712);
+			  			frameRate(10);
+			  			img = loadImage("images/leparti-bare.jpg");
+			  			img2 = loadImage("images/leparti-stars.jpg");
+					}
+
+					void draw() {
+					background (0);
+			 			 
+			 			 if (mouseX > 275) {
+			 			 	image(img2, 0,0);
+			 			}
+			 			else {
+			 				image(img, 0,0);
+			 			}
+					}
+
+
+				</script>-->
+				<canvas><!--The Processing code will hopefully render here now.--></canvas>
 			</div>
 
 			<header class="header">
