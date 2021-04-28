@@ -251,6 +251,12 @@ a {
 	height: 1500px;
 }
 
+.physicalcont2 {
+	/*background: #9bc4d7;*/
+	background: linear-gradient(#9bc4d7, #198c78);
+	height: 1500px;
+}
+
 .physicalcont h2 {
 	margin-top: 80px;
 }
