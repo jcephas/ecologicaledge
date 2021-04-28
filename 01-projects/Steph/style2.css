@@ -8,7 +8,7 @@ body {
 }
 
 .title {
-	background: #071732;
+	background: #001432;
 	height: 850px;
 }
 
@@ -292,14 +292,10 @@ a {
 	height: 1500px;
 }
 
-
-.wisc {
-	width: 500px;
+.UD-M {
+	width: 1400px;
 }
 
-.guide-2 {
-	width: 500px;
-}
 
 .samples-margin {
 	margin: 0 auto 0 275px;
@@ -310,33 +306,6 @@ a {
 	margin-left: 100px;
 }
 
-.guide-3 {
-	width: 500px;
-}
-
-.guide-4 {
-	width: 500px;
-}
-
-.guide-5 {
-	width: 500px;
-}
-
-.guide-6 {
-	width: 500px;
-}
-
-.guide-7 {
-	width: 500px;
-}
-
-.guide-8 {
-	width: 500px;
-}
-
-.guide-9 {
-	width: 500px;
-}
 
 .samples-together {
 	margin-top: 50px;
