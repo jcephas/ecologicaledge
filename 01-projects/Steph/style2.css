@@ -93,6 +93,14 @@ h3 {
 	color: white;
 }
 
+h4 {
+	font-family: Catamaran;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 800px;
+	color: white;
+}
+
 p {
 	font-family: Catamaran;
 	font-size: 14px;
@@ -251,12 +259,6 @@ a {
 	height: 1500px;
 }
 
-.physicalcont2 {
-	/*background: #9bc4d7;*/
-	background: linear-gradient(#9bc4d7, #198c78);
-	height: 1500px;
-}
-
 .physicalcont h2 {
 	margin-top: 80px;
 }
@@ -281,6 +283,13 @@ a {
 	font-size: 20px;
 	font-weight: 200;
 	line-height: 25px;
+}
+
+
+.physicalcont2 {
+	/*background: #9bc4d7;*/
+	background: linear-gradient(#9bc4d7, #198c78);
+	height: 1500px;
 }
 
 
