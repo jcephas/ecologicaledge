@@ -19,13 +19,14 @@
 			<header class="header">
 				<p>La Constelación</p>
 			</header>
-			<h1>Building a Network of Safety for Undocumented Immigrants </h1>
+			<h1>Designing for the Safety of Undocumented Immigrants</h1>
 		</section>
 
 			<nav>
 			<ul>
-				<li><a href="DigitalContainer2.html">HOME</a></li>
-				<li><a href="PhysContainers.html">PHYSICAL CONTAINERS</a></li>
+				<li><a href="index.html">STORYBOARD</a></li>
+				<li><a href="DigitalContainer2.html">RESEARCH & DATA ARCHIVE</a></li>
+				<li><a href="PhysContainers.html">WHAT CAN YOU DO?</a></li>
 			</ul>
 		</nav>
 		
@@ -114,23 +115,23 @@
 <!--<img id="leparti-bare" src="images/leparti-bare.jpg">
 <img id="leparti-stars" src="images/leparti-stars.jpg">-->
 
-<!--<script type="application/Processing">
+<script type="application/Processing">
 		PImage img;
 		PImage img2;
 
 		void setup() {
  		 size (440, 570);
   			frameRate(10);
-  			img = loadImage("images/leparti-bare-s.jpg");
-  			img2 = loadImage("images/leparti-stars-s.jpg")
-  
-  			
+  			img = loadImage("images/leparti-bare.jpg");
+  			img.resize(440,570);
+  			img2 = loadImage("images/leparti-stars.jpg");
+  			img.resize(440,570);
 		}
 
 		void draw() {
-		background(0);
+		background (0);
  			 
- 			 if (mouseX > 255) {
+ 			 if (mouseX > 220) {
  			 	image(img2, 0,0);
  			}
  			else {

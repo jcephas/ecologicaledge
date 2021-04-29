@@ -7,12 +7,42 @@ body {
 	background: white;
 }
 
+
+ul {
+
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	float: left;
+	text-indent: 30px;
+	line-height: 50px;
+
+}
+
+ul li a {
+	text-decoration: none;
+	font-size: 14px;
+	font-family: Catamaran;
+	font-weight: 100;
+	color: white;
+	padding: 0 20px;
+
+}
+
+ul li a:hover {
+	color: #9bc4d7;
+}
+
+
 .title {
-	background: #071732;
-	height: 800px;
+	background: #001432;
+	height: 850px;
 }
 
 .header {
+	display: block;
 	margin: 0 auto;
 	width: 1000px;
 
@@ -40,7 +70,7 @@ section h1 {
 }
 
 .header-text {
-	margin: 0 auto 0 60px;
+	margin: 0 auto 0 250px;
 	width: 1000px;
 }
 
@@ -93,6 +123,14 @@ h3 {
 	color: white;
 }
 
+h4 {
+	font-family: Catamaran;
+	font-size: 40px;
+	font-style: italic;
+	font-weight: 800px;
+	color: white;
+}
+
 p {
 	font-family: Catamaran;
 	font-size: 14px;
@@ -101,19 +139,23 @@ p {
 	/*text-indent: 30px;*/
 }
 
-.leparti-bare {
+.img-leparti {
+	display: block;
 	float: right;
-	margin: 80px 100px;
-	width: 400px;
+	margin: 50px 100px;
+	width: 550px;
+}
+
+.scroll-link {
+	margin: 40px 20px 0 300px;
 }
 
 a {
-	float: right;
 	text-decoration: none;
 	font-size: 14px;
 	font-family: Catamaran;
 	font-weight: 300;
-	color: white;
+	color: gray;
 	padding: 40px 20px;
 }
 
@@ -133,8 +175,8 @@ a {
 
 .box-stakeholders {
 	float: left;
-	width: 200px;
-	height: 175px;
+	width: 220px;
+	height: 185px;
 	margin-left: 60px;
 	margin-top: 60px;
 	padding: 5px;
@@ -143,6 +185,7 @@ a {
 
 .box-stakeholders h3 {
 	text-align: center;
+	margin-top: 5px;
 	margin-bottom: 5px;
 }
 
@@ -211,3 +254,356 @@ a {
 	width: 600px;
 }
 
+.stats {
+	background: linear-gradient(#198c78, white);
+	height: 600px;
+}
+
+.sitenarrative {
+	background: white;
+	height: 800px;
+}
+
+.sitenarrative h2 {
+	color: rgb(0,0,0,.8);
+}
+
+.img-mvmt-location {
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.img-mvmt-safety {
+	width: 1200px;
+}
+
+.text-box4 {
+	float: right;
+	margin: 100px 60px;
+	width: 350px;
+}
+
+.img-mvmt-location p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.sanctuary {
+	background: linear-gradient(white, #bc97f5);
+	height: 1400px;
+}
+
+.sanctuary-text {
+	float: left;
+	width: 300px;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+.img-w-o-s p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.w-o-s {
+	margin-top: 100px;
+	width: 600px;
+	opacity: 0.7;
+	float: left;
+	margin-left: 70px;
+}
+
+.w-s {
+	margin-top: 100px;
+	width: 600px;
+	opacity: 0.7;
+}
+
+.img-health-well {
+	margin-top: 100px;
+}
+
+.img-health-well p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.health-well-text {
+	float: left;
+	width: 200px;
+	margin-left: 200px;
+}
+
+.health-well {
+	margin-top: 120px;
+	width: 1000px;
+	float: left;
+	margin-left: 50px;
+}
+
+.physicalcont {
+	/*background: #9bc4d7;*/
+	background: linear-gradient(#bc97f5, #9bc4d7);
+	height: 1700px;
+}
+
+.physicalcont h2 {
+	padding-top: : 30px;
+}
+
+/*.text-box5 {
+	margin: 100px auto;
+	width: 300px;
+}*/
+
+.physicalcont p{
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.physicalcont2 p{
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.samples-margin {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.samples-images {
+	margin-top: 100px;
+}
+
+
+.guide-text {
+	float: left;
+	width: 600px;
+	margin-top: 200px;
+	margin-left: 130px;
+}
+
+.guide-text-c {
+	float: left;
+	width: 1500px;
+	margin-top: 200px;
+	margin-left: 130px;
+}
+
+.M-E {
+	float: right;
+	margin-right: 100px;
+	width: 600px;
+}
+
+.M-E-S {
+	width: 1500px;
+	margin-top: 10px;
+}
+
+.physicalcont2 {
+	/*background: #9bc4d7;*/
+	background: linear-gradient(#9bc4d7, #198c78);
+	height: 1700px;
+}
+
+.UD-M {
+	width: 1400px;
+}
+
+
+
+.digitalcont{
+	background: white;
+	height: 800px;
+}
+
+.digitalcont-margins {
+	margin: 0 auto;
+	width: 1000px;
+}
+
+.digitalcont p{
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+
+/*Pamphlet-Design-1 The Outside Side*/
+
+#myImg {
+	width: 600px;
+	left: 100px;
+	margin-top: 50px;
+	margin-left: 200px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to {transform:scale(1)}
+}
+
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+	.modal-content {
+		width: 100%;
+	}
+}
+
+/*Pamhplet-Design-2 The Interior Side*/
+
+#myImg2 {
+	width: 600px;
+	left: 800px;
+	margin-top: 20px;
+	margin-left: 200px;
+	border: none;
+	border-radius: 1px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+.modal2 {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 1500px;
+}
+
+#caption2 {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+.modal-content2, #caption2 {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {transform:scale(0)}
+	to (transform: scale(1)}
+}
+
+.close2 {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close2:hover,
+.close2:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
+
+@media only screen and (max-width: 700px){
+	.modal-content2 {
+		width: 100%;
+	}
+}
+
+/*End of Pamphlet*/
+
+/*Start of Sample Images*/
