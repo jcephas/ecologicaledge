@@ -256,7 +256,7 @@ a {
 .physicalcont {
 	/*background: #9bc4d7;*/
 	background: linear-gradient(#bc97f5, #9bc4d7);
-	height: 1500px;
+	height: 1600px;
 }
 
 .physicalcont h2 {
@@ -269,6 +269,14 @@ a {
 }*/
 
 .physicalcont p{
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.physicalcont2 p{
 	float: right;
 	margin-top: 40px;
 	font-size: 20px;
