@@ -22,6 +22,14 @@
 	</head>
 
 	<body>
+			<nav>
+				<ul>
+					<li><a href="index.html">STORYBOARD</a></li>
+					<li><a href="DigitalContainer2.html">RESEARCH & DATA ARCHIVE</a></li>
+					<li><a href="PhysContainers.html">WHAT CAN YOU DO?</a></li>
+				</ul>
+			</nav>
+
 		<section class="title">
 			<div class="img-leparti">
 				<script type="application/Processing">
@@ -142,6 +150,12 @@
 			</div>
 		</section>
 
+		<section id="l-stats" class="stats">
+			<div class="header">
+				<h2>EAST BOSTON BACKGROUND</h2>
+			</div>
+		</section>
+
 		<section id="l-sitenarrative" class="sitenarrative">
 			<div class="header">
 					<h2>SITE ANALYSIS</h2>
@@ -160,6 +174,38 @@
 			</div>
 		</section>
 
+		<section id="l-sanctuary" class="sanctuary">
+			<div class="header">
+				<h2>WHAT IS A SANCTUARY CITY?</h2>
+			</div>
+
+			<div class="int-sanctuary">
+				<script type="application/Processing">
+					PImage img3;
+					PImage img4;
+
+					void setup() {
+					size (720, 580);
+						frameRate(10);
+						img3 = loadImage("images/w-o.png");
+						img4 = loadImage("images/w-o-s.png");
+					}
+
+					void draw() {
+
+						if mousePressed() {
+							image(img4, 0,0);
+						}
+						else {
+							image(img3, 0,0);
+						}
+					}
+
+				</script>
+				<canvas></canvas>
+
+		</section>
+
 
 		<section id="l-physicalcont" class="physicalcont">
 			<div class="header">
@@ -171,7 +217,7 @@
 				<div class="samples-images">
 					<img class="M-E" src="images/M-E.png">
 					<div class="guide-text">
-						<h4>An Unheard Voice</h4>
+						<h4><b>Problem:</b> An Unheard Voice</h4>
 						<p>Because undocumented immigrant rights are typically looked as a federal government issue, the population is usually overlooked. This leads to a whole demographic not having a say in public meetings or engagements for new design proposals in their neighborhoods.</p>
 					</div>
 				</div>
@@ -193,7 +239,7 @@
 			<div class= "samples-margin">
 				<div class="samples-images">
 					<div class="guide-text">
-						<h4>Restriction in Movement</h4>
+						<h4><b>Problem:</b> Restriction in Movement</h4>
 						<p>Because undocumented immigrant rights are typically looked as a federal government issue, the population is usually overlooked. This leads to a whole demographic not having a say in public meetings or engagements for new design proposals in their neighborhoods.</p>
 					</div>
 					<img class="UD-L" src="images/UD-L.png">
