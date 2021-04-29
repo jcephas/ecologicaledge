@@ -22,6 +22,10 @@ h1, h3 {
 	text-align: center;
 }
 
+p {
+	padding-top: 20px;
+}
+
 img {
 	width: 100%;
 }
@@ -46,4 +50,9 @@ img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	vertical-align: middle;
+}
+
+.highlight {
+	color: #ad961f;
+	font-weight: bold;
 }
