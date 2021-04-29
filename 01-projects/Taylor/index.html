@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/summary-page.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Open+Sans:400,700");
+
+      .component-wrapper a,
+      .screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .full-width-a {
+        width: 100%;
+      }
+
+      .full-height-a {
+        height: 100%;
+      }
+
+      .screen textarea:focus,
+      .screen input:focus {
+        outline: none;
+      }
+
+      .screen *,
+      .component-wrapper * {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .container-center-vertical,
+      .container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .container-center-vertical > *,
+      .container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .component-wrapper,
+      .screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --z-index: -1;
+      }
+
+      .auto-animated .container-center-vertical,
+      .auto-animated .container-center-horizontal {
+        opacity: 1;
+      }
+
+      .overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .animate-appear {
+        opacity: 0;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      input:focus {
+        outline: none;
+      }
+      .component-wrapper,
+      .component-wrapper * {
+        pointer-events: none;
+      }
+
+      .component-wrapper a *,
+      .component-wrapper a,
+      .component-wrapper input,
+      .component-wrapper video,
+      .component-wrapper iframe,
+      .listeners-active,
+      .listeners-active * {
+        pointer-events: auto;
+      }
+
+      .hidden,
+      .hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .smart-layers-pointers,
+      .smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .component-wrapper.not-ready,
+      .component-wrapper.not-ready * {
+        visibility: hidden !important;
+      }
+
+      .listeners-active-click,
+      .listeners-active-click * {
+        cursor: pointer;
+      }
+
+      @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Open+Sans:400,700");
+      * {
+        box-sizing: border-box;
+      }
+      .opensans-bold-dove-gray-24px {
+        color: var(--dove-gray);
+        font-family: "Open Sans", Helvetica;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+      }
+      .opensans-normal-dove-gray-18px {
+        color: var(--dove-gray);
+        font-family: "Open Sans", Helvetica;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .sourcesanspro-normal-black-16px {
+        color: var(--black);
+        font-family: "Source Sans Pro", Helvetica;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .sourcesanspro-normal-black-36px {
+        color: var(--black);
+        font-family: "Source Sans Pro", Helvetica;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .sourcesanspro-normal-black-64px {
+        color: var(--black);
+        font-family: "Source Sans Pro", Helvetica;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      .sourcesanspro-normal-gray-36px {
+        color: var(--gray);
+        font-family: "Source Sans Pro", Helvetica;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+      }
+      :root {
+        --apricot: rgba(234, 144, 122, 1);
+        --black: rgba(0, 0, 0, 1);
+        --dove-gray: rgba(111, 111, 111, 1);
+        --gray: rgba(145, 145, 145, 1);
+        --macaroni-cheese: rgba(251, 198, 135, 1);
+        --white: rgba(255, 255, 255, 1);
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="summary-page" />
+    <div class="container-center-horizontal">
+      <div class="summary-page screen">
+        <div class="header-C61RwL">
+          <img class="logo-favicon-IcPKRJ" src="img/logo-favicon-1@1x.png" />
+          <div class="buttons-IcPKRJ">
+            <a href="proposal-page.html">
+              <div class="initial-research-button-BaIJec">
+                <div class="initial-proposal-HSjBkh sourcesanspro-normal-black-16px">Initial Proposal</div>
+              </div></a
+            >
+            <a href="research-page.html">
+              <div class="research-button-BaIJec">
+                <div class="additional-research-a71nxV sourcesanspro-normal-black-16px">Additional Research</div>
+              </div></a
+            >
+            <div class="summary-button-BaIJec">
+              <div class="summary-puoRIN sourcesanspro-normal-black-16px">Summary</div>
+            </div>
+          </div>
+          <div class="site-title-IcPKRJ sourcesanspro-normal-black-36px">
+            Mobilizing Community Engagement in East Boston
+          </div>
+        </div>
+        <div class="hero-C61RwL">
+          <img class="mass-temp-6yINq5" src="img/mass-temp@1x.png" />
+          <div class="title-6yINq5">Bringing the Engagement to our Communities</div>
+          <div class="subtitle-6yINq5 sourcesanspro-normal-gray-36px">
+            A framework for increasing neighborhood planning community participation in East Boston through exploratory
+            mobilized engagement strategies&nbsp;&nbsp;
+          </div>
+        </div>
+        <div class="problem-C61RwL">
+          <div class="digital-wireframe-wgg0wG"></div>
+          <div class="subtitle-wgg0wG">
+            A framework for increasing neighborhood planning community participation in East Boston through exploratory
+            mobilized engagement strategies&nbsp;&nbsp;
+          </div>
+          <div class="title-wgg0wG sourcesanspro-normal-black-64px">Description of the Problem</div>
+        </div>
+        <div class="overlap-group-C61RwL">
+          <div class="physical-board-4eduM0">
+            <div class="group-2-ioifdr">
+              <div class="rectangle-13-uYKrEa"></div>
+              <div class="ellipse-76-uYKrEa"></div>
+              <div class="description-uYKrEa sourcesanspro-normal-gray-36px">
+                Digital community boards give the City of Boston a chance to directly connect each of our individual
+                communities with their neighborhoods and to the city. Now we can communicate, learn, and evolve
+                together.&nbsp;&nbsp;
+              </div>
+              <div class="title-uYKrEa">The Display Board</div>
+              <img class="board-uYKrEa" src="img/board@1x.png" />
+            </div>
+          </div>
+          <div class="solution-4eduM0">
+            <div class="subtitle-3FSh0O">
+              A framework for increasing neighborhood planning community participation in East Boston through
+              exploratory mobilized engagement strategies&nbsp;&nbsp;
+            </div>
+            <div class="title-3FSh0O sourcesanspro-normal-black-64px">Description of the Solution</div>
+          </div>
+        </div>
+        <div class="digital-description-C61RwL">
+          <div class="group-1-uxkIer">
+            <div class="commication-W8LKzq">
+              <div class="communication-WG4Mie opensans-bold-dove-gray-24px">Communication</div>
+              <img class="social-interaction-rafiki-WG4Mie" src="img/social-interaction-rafiki@1x.png" />
+              <div class="with-displays-s-ke-never-before-WG4Mie opensans-normal-dove-gray-18px">
+                With displays strategically placed within East Boston and throughout the rest of the city, residents,
+                businesses, and tourists are able to connect and communicate with one another like never before.
+              </div>
+            </div>
+            <div class="timeline-W8LKzq">
+              <div class="timeline-calendar-5on15G opensans-bold-dove-gray-24px">Timeline &amp; Calendar</div>
+              <img class="schedule-rafiki-5on15G" src="img/schedule-rafiki@1x.png" />
+              <div class="always-on-and-i-etion-timelines-5on15G opensans-normal-dove-gray-18px">
+                Always on and interactive displays placed in high foot traffic areas will allow for the display of
+                useful information like upcoming planning events, community events, and nearby project completion
+                timelines.
+              </div>
+            </div>
+            <div class="project-info-W8LKzq">
+              <div class="project-info-data-LJKfxL opensans-bold-dove-gray-24px">Project Info &amp; Data</div>
+              <img class="design-stats-rafiki-LJKfxL" src="img/design-stats-rafiki@1x.png" />
+              <div class="virtual-public-advertisements-LJKfxL opensans-normal-dove-gray-18px">
+                Virtual public displays can be used to showcase relevant community information and data, such as
+                neighborhood and citywide goals, officials and developer contact information, and local advertisements.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="project-info-C61RwL">
+          <div class="title-xVTb4W sourcesanspro-normal-black-64px">Project Info &amp; Data</div>
+        </div>
+        <div class="communication-C61RwL">
+          <div class="title-kVA6bF sourcesanspro-normal-black-64px">Timeline &amp; Calendar</div>
+        </div>
+        <div class="timeline-C61RwL"><div class="title-oQxcGL sourcesanspro-normal-black-64px">Communication</div></div>
+        <div class="physcial-bike-C61RwL">
+          <div class="title-VMkvBb sourcesanspro-normal-black-64px">Physical Bike 1</div>
+        </div>
+        <div class="physcial-bike-2-C61RwL">
+          <div class="title-v1tuPu sourcesanspro-normal-black-64px">Physical Bike 2</div>
+        </div>
+        <div class="network-C61RwL">
+          <img class="east-boston-network-hxAH3I" src="img/east-boston-network@1x.png" />
+          <div class="description-hxAH3I sourcesanspro-normal-gray-36px">
+            Digital community boards give the City of Boston a chance to directly connect each of our individual
+            communities with their neighborhoods and to the city. Now we can communicate, learn, and evolve
+            together.&nbsp;&nbsp;
+          </div>
+          <div class="title-hxAH3I">The Neighborhood Network</div>
+        </div>
+        <div class="footer-C61RwL">
+          <img class="logo-favicon-iPe1yZ" src="img/logo-favicon@1x.png" />
+          <div class="school-iPe1yZ">Northeastern University | ARCH 7140</div>
+          <div class="name-date-iPe1yZ">Taylor Herman | Spring 2021</div>
+          <div class="we-did-it-iPe1yZ">WE DID IT!</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -4,9 +4,9 @@
 }
 
 
-body{
+body {
 	width: 100%;
-	height: 1400px;
+	height: 1350px;
 	color: #fff;
 	/*background: linear-gradient(#001432, #198c78);
 	background-size: cover; 
@@ -27,7 +27,6 @@ header {
 	color: white;
 	margin-left: 30px;
 	letter-spacing: 15px;
-
 }
 
 section h1 {
@@ -78,7 +77,6 @@ h1 {
 	font-weight: 300;
 	color: white;
 	padding: 0 30px;
-	
 }
 
 h2 {
@@ -138,18 +136,15 @@ p {
 	width: 500px;
 }
 
-.img-urbanstrategies {
-	width: 600px;
-}
-
 
 .img-mvmt-safety {
-	width: 800px;
+	width: 1000px;
 }
 
 .img-mvmt-location {
-	float: right;
-	margin-right: 30px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 20px;
 }
 
 .img-impact {
@@ -189,6 +184,7 @@ p {
 }
 
 .img-leparti{
+	display: block;
 	float: right;
 	margin-right: 300px;
 }
@@ -197,22 +193,46 @@ p {
 	width: 400px;
 }
 
+.leparti-stars {
+	width: 400px;
+}
+
+.leparti-bare {
+	float: right;
+	margin-right: 100px;
+	width: 400px;
+	margin-top: 10px;
+}
+
+.physicalcontainers h2{
+	left-margin: 300px;
+}
+
+
 .img-pamphlet-1{
 	position: absolute;
 	float: left;
-	margin-top: 600px;
+	margin-top: 400px;
 	margin-left: 100px;
 }
 
 .img-pamphlet-2{
 	position: absolute;
 	float: left;
-	margin-top: 600px;
+	margin-top: 400px;
 	margin-left: 900px;
 }
 
 .pamphlet{
 	width: 700px;
+}
+
+.img-maprough {
+	float: center;
+}
+
+.maprough {
+	width: 850px;
 }
 
 
@@ -234,11 +254,24 @@ p {
 	margin-top: 300px;
 }
 
+.short-box {
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 600px;
+
+}
+
 .long-box {
-	margin-top: 200px;
+	float: left;
+	margin-top: 100px;
 	margin-left: 100px;
 	width: 1000px;
 
+}
+
+.long-box h2 {
+	margin-right: 0px;
 }
 
 .box {
@@ -291,8 +324,8 @@ p {
 .img-urbanstrategies {
 	position: absolute;
 	float: left;
-	margin-top: 800px;
-	margin-left: 100px;
+	margin-top: 1000px;
+	margin-left: 300px;
 }
 
 .urbanstrategies {
