@@ -289,9 +289,36 @@ a {
 	line-height: 25px;
 }
 
-.sanctuary{
+.sanctuary {
 	background: linear-gradient(white, #bc97f5);
-	height: 700px;
+	height: 1000px;
+}
+
+.sanctuary-text {
+	float: left;
+	width: 300px;
+	margin-top: 120px;
+	margin-left: 10px;
+}
+
+.img-w-o-s p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.w-o-s {
+	margin-top: 100px;
+	width: 600px;
+	opacity: 0.7;
+	float: left;
+	margin-left: 70px;
+}
+
+.w-s {
+	margin-top: 100px;
+	width: 600px;
+	opacity: 0.7;
 }
 
 .physicalcont {
