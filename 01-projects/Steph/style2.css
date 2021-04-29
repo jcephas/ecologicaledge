@@ -276,22 +276,28 @@ a {
 	line-height: 25px;
 }
 
+.samples-margin {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.samples-images {
+	margin-top: 100px;
+}
+
+
 .guide-text {
 	float: left;
 	width: 600px;
-	margin-top: 100px;
+	margin-top: 200px;
 	margin-left: 130px;
 }
 
-.guide-text-c h4{
-	margin: 100px auto;
-}
-
-
-.physicalcont2 {
-	/*background: #9bc4d7;*/
-	background: linear-gradient(#9bc4d7, #198c78);
-	height: 1500px;
+.guide-text-c {
+	float: left;
+	width: 1500px;
+	margin-top: 200px;
+	margin-left: 130px;
 }
 
 .M-E {
@@ -302,18 +308,19 @@ a {
 
 .M-E-S {
 	width: 1500px;
-	margin-top: 300px;
+	margin-top: 10px;
+}
+
+.physicalcont2 {
+	/*background: #9bc4d7;*/
+	background: linear-gradient(#9bc4d7, #198c78);
+	height: 1500px;
 }
 
 .UD-M {
 	width: 1400px;
 }
 
-.samples-images {
-	margin-top: 100px;
-	margin-left: 100px;
-	width: 1500px;
-}
 
 
 .digitalcont{
