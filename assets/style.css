@@ -56,3 +56,7 @@ img {
 	color: #ad961f;
 	font-weight: bold;
 }
+
+.buffer {
+	height: 60px;
+}
