@@ -4,6 +4,9 @@
 	<head>
 		<title>La Constelación</title>
 
+		<!-- This is the bootstrap link to make the button interactive stuff. -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
 		<!-- This is the bootsrap link to make the scrolly scroll effect nice. -->
 
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
@@ -178,31 +181,6 @@
 			<div class="header">
 				<h2>WHAT IS A SANCTUARY CITY?</h2>
 			</div>
-
-			<div class="int-sanctuary">
-				<script type="application/Processing">
-					PImage img3;
-					PImage img4;
-
-					void setup() {
-					size (720, 580);
-						frameRate(10);
-						img3 = loadImage("images/w-o.png");
-						img4 = loadImage("images/w-o-s.png");
-					}
-
-					void draw() {
-
-						if mousePressed() {
-							image(img4, 0,0);
-						}
-						else {
-							image(img3, 0,0);
-						}
-					}
-
-				</script>
-				<canvas></canvas>
 
 		</section>
 
