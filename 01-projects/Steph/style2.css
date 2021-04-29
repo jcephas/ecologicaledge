@@ -291,7 +291,7 @@ a {
 
 .sanctuary {
 	background: linear-gradient(white, #bc97f5);
-	height: 1000px;
+	height: 1400px;
 }
 
 .sanctuary-text {
@@ -319,6 +319,29 @@ a {
 	margin-top: 100px;
 	width: 600px;
 	opacity: 0.7;
+}
+
+.img-health-well {
+	margin-top: 100px;
+}
+
+.img-health-well p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.health-well-text {
+	float: left;
+	width: 200px;
+	margin-left: 200px;
+}
+
+.health-well {
+	margin-top: 120px;
+	width: 1000px;
+	float: left;
+	margin-left: 50px;
 }
 
 .physicalcont {
