@@ -350,14 +350,6 @@ a {
 	height: 1700px;
 }
 
-.physicalcont h2 {
-	padding-top: : 30px;
-}
-
-/*.text-box5 {
-	margin: 100px auto;
-	width: 300px;
-}*/
 
 .physicalcont p{
 	float: right;
@@ -422,7 +414,7 @@ a {
 
 .physicalcont3 {
 	background: linear-gradient(#198c78, #001432);
-	height: 1800px;
+	height: 1900px;
 }
 
 .physicalcont3 p {
@@ -446,6 +438,19 @@ a {
 .pamphlet {
 	background: #001432;
 	height: 800px;
+}
+
+.pamphlet p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.pamphlet-text {
+	float: left;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: 200px;
 }
 
 
