@@ -147,15 +147,21 @@ p {
 }
 
 .scroll-link {
-	margin: 40px 20px 0 300px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 0px auto;
+	text-align: center;
+	background: rgba(225,225,225,0.5);
 }
+
 
 a {
 	text-decoration: none;
 	font-size: 14px;
 	font-family: Catamaran;
 	font-weight: 300;
-	color: gray;
+	color: rgba(225,225,225,0.8);
 	padding: 40px 20px;
 }
 
@@ -259,9 +265,15 @@ a {
 	height: 600px;
 }
 
+.stats p{
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
 .sitenarrative {
 	background: white;
-	height: 800px;
+	height: 900px;
 }
 
 .sitenarrative h2 {
