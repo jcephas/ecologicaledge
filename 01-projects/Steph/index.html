@@ -274,6 +274,39 @@
 					</div>
 					<img class="housing-d" src="images/housing-d.png">
 				</div>
+
+				<div class="samples-images">
+					<div class="guide-text" style="margin-top: 300px;">
+						<h4><b>Strategy:</b> Designing for Diversity</h4>
+						<p style="color: white;">Designing for multigenerational living and being able to adapt current buildings into better suited for different age groups. Also, planning for streets to be part of the public realm for play, commerce and cultural events.</p>
+					</div>
+
+					<div class="housing-1">
+						<script type="application/Processing">
+							PImage img3;
+							PImage img4;
+
+							void setup() {
+							size (932, 576);
+							frameRate(10);
+							img3 = loadImage("images/housing-1.png");
+							img4 = loadImage("images/housing-2.png");
+							}
+
+							void draw() {
+							background (255,0);
+
+								if (mouseX > 466) {
+									image(img4, 0,0);
+								}
+								else {
+									image(img3, 0,0);
+								}
+							}
+
+						</script>
+						<canvas></canvas>
+				</div>
 			</div>
 		</section>
 

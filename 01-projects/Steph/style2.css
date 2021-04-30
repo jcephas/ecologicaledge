@@ -435,7 +435,12 @@ a {
 
 .housing-d {
 	width: 700px;
+	float: right;
 	margin-top: 100px;
+}
+
+.housing-1 {
+	margin-left: 300px;
 }
 
 
