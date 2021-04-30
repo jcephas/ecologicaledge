@@ -1,1 +1,2 @@
-This is a description of my project.
+# Final Project
+For more information emaail taylor@herman.com

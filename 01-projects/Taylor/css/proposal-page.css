@@ -72,7 +72,7 @@
   width: 122px;
 }
 .proposal-page .rectangle-12-C61RwL {
-  background-color: var(--macaroni-cheese);
+  background-color: var(--botticelli);
   height: calc(100.00% - 150px);
   left: 0px;
   position: absolute;
@@ -84,6 +84,7 @@
   background-image: url(../img/background-1@1x.png);
   background-position: 50% 50%;
   background-size: cover;
+  cursor: pointer;
   height: 100%;
   left: calc(44.32% - 75px);
   position: absolute;
@@ -100,13 +101,14 @@
   position: absolute;
   text-align: left;
   white-space: nowrap;
-  width: 779px;
+  width: 612px;
 }
 .proposal-page .summary-button-BaIJec {
   background-color: transparent;
   background-image: url(../img/background-2@1x.png);
   background-position: 50% 50%;
   background-size: cover;
+  cursor: pointer;
   height: 100%;
   left: 0px;
   position: absolute;
