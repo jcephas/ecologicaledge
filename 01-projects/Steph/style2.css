@@ -422,7 +422,7 @@ a {
 
 .physicalcont3 {
 	background: linear-gradient(#198c78, #001432);
-	height: 1700px;
+	height: 1800px;
 }
 
 .physicalcont3 p {
@@ -441,6 +441,11 @@ a {
 
 .housing-1 {
 	margin-left: 300px;
+}
+
+.pamphlet {
+	background: #001432;
+	height: 800px;
 }
 
 
@@ -466,11 +471,12 @@ a {
 /*Pamphlet-Design-1 The Outside Side*/
 
 #myImg {
+	/*position: absolute;*/
 	width: 600px;
 	left: 100px;
-	margin-top: 50px;
-	margin-left: 200px;
-	border: none;
+	margin-top: 100px;
+	margin-left: 175px;
+	border: 1px solid white;
 	border-radius: 1px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -547,11 +553,12 @@ a {
 /*Pamhplet-Design-2 The Interior Side*/
 
 #myImg2 {
+	/*position: absolute;*/
 	width: 600px;
 	left: 800px;
-	margin-top: 20px;
-	margin-left: 200px;
-	border: none;
+	margin-top: 100px;
+	margin-left: 100px;
+	border: 1px solid white;
 	border-radius: 1px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -626,6 +633,4 @@ a {
 	}
 }
 
-/*End of Pamphlet*/
-
-/*Start of Sample Images*/
+/*END OF PAMPHLET*/

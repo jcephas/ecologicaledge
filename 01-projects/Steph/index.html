@@ -270,13 +270,13 @@
 				<div class="samples-images">
 					<div class="guide-text">
 						<h4><b>Problem:</b> Designing for Who?</h4>
-						<p>In America, housing is typically designed for a homogenous type of living, with the family household consisting of usually 4 members. But, many immigrant groups tend to live together in multigenerational households.</p>
+						<p style="color: white;">In America, housing is typically designed for a homogenous type of living, with the family household consisting of usually 4 members. But, many immigrant groups tend to live together in multigenerational households.</p>
 					</div>
 					<img class="housing-d" src="images/housing-d.png">
 				</div>
 
 				<div class="samples-images">
-					<div class="guide-text" style="margin-top: 300px;">
+					<div class="guide-text" style="margin-top: 400px;">
 						<h4><b>Strategy:</b> Designing for Diversity</h4>
 						<p style="color: white;">Designing for multigenerational living and being able to adapt current buildings into better suited for different age groups. Also, planning for streets to be part of the public realm for play, commerce and cultural events.</p>
 					</div>
@@ -309,6 +309,68 @@
 				</div>
 			</div>
 		</section>
+
+		<section id="l-pamphlet" class="pamphlet">
+			<div class="header">
+				<h2>Pamphlet: A Network of Safety</h2>
+			</div>
+
+			<img id="myImg" src="images/pamphlet-design-1.jpg" alt="Pamphlet Design Outside">
+
+			<div id="myModal" class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+
+			<img id="myImg2" src="images/pamphlet-design-2.jpg" alt="Pamphlet Design Inside">
+
+			<div id="myModal2" class="modal2">
+				<span class="close2">&times;</span>
+				<img class="modal-content2" id="img02">
+				<div id="caption2"></div>
+			</div>
+
+			<script> 
+				var modal = document.getElementById("myModal");
+
+				var img = document.getElementById("myImg");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+					modal.style.display = "block"
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+				var span = document.getElementsByClassName("close")[0];
+
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+
+			</script>
+
+			<script>
+				var modal = document.getElementById("myModal2");
+
+				var img = document.getElementById("myImg2");
+				var modalImg = document.getElementById("img02");
+				var captionText = document.getElementById("caption2");
+				img.onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+				var span = document.getElementsByClassName("close2")[0];
+
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+			</script>
+		</section>
+
 
 		<section id="l-digitalcont" class="digitalcont">
 			<div class="digitalcont-margins">
