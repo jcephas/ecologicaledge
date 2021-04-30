@@ -425,6 +425,19 @@ a {
 	height: 1700px;
 }
 
+.physicalcont3 p {
+	float: right;
+	margin-top: 40px;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.housing-d {
+	width: 700px;
+	margin-top: 100px;
+}
+
 
 .digitalcont{
 	background: white;
