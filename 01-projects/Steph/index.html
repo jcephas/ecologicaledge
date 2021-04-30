@@ -80,12 +80,9 @@
 			</div>
 
 			<div class="scroll-link">
-				<a href="#l-stakeholders">GO TO STAKEHOLDERS <b>--></b></a>
+				<a href="#l-stakeholders"><b>STAKEHOLDERS<b></a>
 			</div>	
 
-			<div class="scroll-link">
-				<a href="#l-sitenarrative">GO TO SITE NARRATIVE <b>--></b></a>
-			</div>	
 		</section>
 
 		<section id="l-stakeholders" class="stakeholders">
@@ -149,7 +146,7 @@
 			</div>
 
 			<div class="scroll-link">
-				<a href="#l-sitenarrative">GO TO SITE NARRATIVE <b>--></b></a>
+				<a href="#l-sitenarrative"><b>SITE NARRATIVE</b></a>
 			</div>
 		</section>
 
@@ -157,6 +154,11 @@
 			<div class="header">
 				<h2>EAST BOSTON BACKGROUND</h2>
 			</div>
+
+			<div class="pamphlet-text" style="color: white;">
+				<p>East Boston has had many changes in population throughout time and it's current population is more than 50% foreign born, with majority being from El Salvador and Colombia. Despite the rise in immigrant population and Boston's Sanctuary City Policy, undocumented immigrants are still being targeted by ICE and deported. This project aims to bring light to the issue, understanding the restrictions that this demographic goes through and looking at the spatial strategies that could be implemented in tackling these issues.</p>
+			</div>
+
 		</section>
 
 		<section id="l-sitenarrative" class="sitenarrative">
@@ -167,13 +169,13 @@
 			<div class="img-mvmt-location">
 					<img class="img-mvmt-safety" src="images/mvmt-safety.jpg">
 				<div class="text-box4">
-					<p>The extents of my site for the project is East Boston in general. The urban planning guide will present theories that have presented translations of theories in the case study of East Boston. The following maps give information on demographics of East Boston, their transportation network, and their current safety network. Through these mappings we can get a sense of where this safety is felt, what is missing and what can be combined to work together.</p>
+					<p>The extents of my site for the project is East Boston in general. The urban planning guide will present theories that have presented translations of theories in the case study of East Boston. The following map gives information on demographics of East Boston, their transportation network, and their current safety network. Through these mappings we can get a sense of where this safety is felt, what is missing and what can be combined to work together.</p>
 					<p>The map shows the relationship between Safety and Transportation, looking at walking distances of nearest places of safety that undocumented immigrants can potentially use in an emergency situation. We can also see in the detail bubble the active corridor that forms with the community centers and organizations present.</p>
 				</div>
 			</div>
 
 			<div class="scroll-link">
-				<a href="#l-physicalcont">GO TO PHYSICAL CONTAINER <b>--></b></a>
+				<a style="color: black; margin-top: 20px;" href="#l-sanctuary"><b>SANCTUARY CITY</b></a>
 			</div>
 		</section>
 
@@ -269,13 +271,113 @@
 			<div class="samples-margin">
 				<div class="samples-images">
 					<div class="guide-text">
-						<h4><b>Problem:</b> Housing for Who?</h4>
-						<p>In America, housing is typically designed for a homogenous type of living, with the family household consisting of usually 4 members. But, many immigrant groups tend to live together in multigenerational households.</p>
+						<h4><b>Problem:</b> Designing for Who?</h4>
+						<p style="color: white;">In America, housing is typically designed for a homogenous type of living, with the family household consisting of usually 4 members. But, many immigrant groups tend to live together in multigenerational households.</p>
 					</div>
 					<img class="housing-d" src="images/housing-d.png">
 				</div>
+
+				<div class="samples-images">
+					<div class="guide-text" style="margin-top: 400px;">
+						<h4><b>Strategy:</b> Designing for Diversity</h4>
+						<p style="color: white;">Designing for multigenerational living and being able to adapt current buildings into better suited for different age groups. Also, planning for streets to be part of the public realm for play, commerce and cultural events.</p>
+					</div>
+
+					<div class="housing-1">
+						<script type="application/Processing">
+							PImage img3;
+							PImage img4;
+
+							void setup() {
+							size (932, 576);
+							frameRate(10);
+							img3 = loadImage("images/housing-1.png");
+							img4 = loadImage("images/housing-2.png");
+							}
+
+							void draw() {
+							background (255,0);
+
+								if (mouseX > 466) {
+									image(img4, 0,0);
+								}
+								else {
+									image(img3, 0,0);
+								}
+							}
+
+						</script>
+						<canvas></canvas>
+				</div>
 			</div>
 		</section>
+
+		<section id="l-pamphlet" class="pamphlet">
+			<div class="header">
+				<h4><b>Pamphlet:</b> A Network of Safety</h4>
+			</div>
+
+			<img id="myImg" src="images/pamphlet-design-1.jpg" alt="Pamphlet Design Outside">
+
+			<div id="myModal" class="modal">
+				<span class="close">&times;</span>
+				<img class="modal-content" id="img01">
+				<div id="caption"></div>
+			</div>
+
+			<img id="myImg2" src="images/pamphlet-design-2.jpg" alt="Pamphlet Design Inside">
+
+			<div id="myModal2" class="modal2">
+				<span class="close2">&times;</span>
+				<img class="modal-content2" id="img02">
+				<div id="caption2"></div>
+			</div>
+
+			<script> 
+				var modal = document.getElementById("myModal");
+
+				var img = document.getElementById("myImg");
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+					modal.style.display = "block"
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+				var span = document.getElementsByClassName("close")[0];
+
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+
+			</script>
+
+			<script>
+				var modal = document.getElementById("myModal2");
+
+				var img = document.getElementById("myImg2");
+				var modalImg = document.getElementById("img02");
+				var captionText = document.getElementById("caption2");
+				img.onclick = function(){
+					modal.style.display = "block";
+					modalImg.src = this.src;
+					captionText.innerHTML = this.alt;
+				}
+
+				var span = document.getElementsByClassName("close2")[0];
+
+				span.onclick = function() {
+					modal.style.display = "none";
+				}
+			</script>
+
+			<div class="pamphlet-text" style="color: white;">
+				<p>The purpose of the pamphlet is to help undocumented immigrants know who, what and where the existing resources are within their city or neighborhood. It contains the Network of Safety Map, Know Your Rights information, as well as current policies that East Boston is under that work against or in their favor. The pamphlet with be distributed through local organizations and "safe events".</p>
+			</div>
+
+		</section>
+
 
 		<section id="l-digitalcont" class="digitalcont">
 			<div class="digitalcont-margins">
