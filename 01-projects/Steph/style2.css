@@ -147,15 +147,21 @@ p {
 }
 
 .scroll-link {
-	margin: 40px 20px 0 300px;
+	width: 200px;
+	border: 1px solid white;
+	border-radius: 10px;
+	margin: 0px auto;
+	text-align: center;
+	background: rgba(225,225,225,0.5);
 }
+
 
 a {
 	text-decoration: none;
 	font-size: 14px;
 	font-family: Catamaran;
 	font-weight: 300;
-	color: gray;
+	color: rgba(225,225,225,0.8);
 	padding: 40px 20px;
 }
 
@@ -259,9 +265,15 @@ a {
 	height: 600px;
 }
 
+.stats p{
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
 .sitenarrative {
 	background: white;
-	height: 800px;
+	height: 900px;
 }
 
 .sitenarrative h2 {
@@ -350,14 +362,6 @@ a {
 	height: 1700px;
 }
 
-.physicalcont h2 {
-	padding-top: : 30px;
-}
-
-/*.text-box5 {
-	margin: 100px auto;
-	width: 300px;
-}*/
 
 .physicalcont p{
 	float: right;
@@ -422,7 +426,7 @@ a {
 
 .physicalcont3 {
 	background: linear-gradient(#198c78, #001432);
-	height: 1700px;
+	height: 1900px;
 }
 
 .physicalcont3 p {
@@ -435,7 +439,30 @@ a {
 
 .housing-d {
 	width: 700px;
+	float: right;
 	margin-top: 100px;
+}
+
+.housing-1 {
+	margin-left: 300px;
+}
+
+.pamphlet {
+	background: #001432;
+	height: 800px;
+}
+
+.pamphlet p {
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 25px;
+}
+
+.pamphlet-text {
+	float: left;
+	width: 1200px;
+	margin-top: 50px;
+	margin-left: 200px;
 }
 
 
@@ -461,11 +488,12 @@ a {
 /*Pamphlet-Design-1 The Outside Side*/
 
 #myImg {
+	/*position: absolute;*/
 	width: 600px;
 	left: 100px;
-	margin-top: 50px;
-	margin-left: 200px;
-	border: none;
+	margin-top: 100px;
+	margin-left: 175px;
+	border: 1px solid white;
 	border-radius: 1px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -542,11 +570,12 @@ a {
 /*Pamhplet-Design-2 The Interior Side*/
 
 #myImg2 {
+	/*position: absolute;*/
 	width: 600px;
 	left: 800px;
-	margin-top: 20px;
-	margin-left: 200px;
-	border: none;
+	margin-top: 100px;
+	margin-left: 100px;
+	border: 1px solid white;
 	border-radius: 1px;
 	cursor: pointer;
 	transition: 0.3s;
@@ -621,6 +650,4 @@ a {
 	}
 }
 
-/*End of Pamphlet*/
-
-/*Start of Sample Images*/
+/*END OF PAMPHLET*/
