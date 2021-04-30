@@ -1,0 +1,144 @@
+:root {
+  --apricot: #ea907a;
+  --black: #000000;
+  --botticelli: #c5daed;
+  --cadet-blue: #afbbc6;
+  --dove-gray: #6f6f6f;
+  --dove-gray-2: #707070;
+  --gray: #919191;
+  --macaroni-cheese: #fbc687;
+  --mountain-mist: #939393;
+  --onyx: #39393a;
+  --opal: #aacdbe;
+  --oslo-gray: #8c8f93;
+  --tundora: #454545;
+  --tusk: #f4f7c5;
+  --waterloo-: #7b8793;
+  --white: #ffffff;
+
+  --font-size-l: 64px;
+  --font-size-m: 36px;
+  --font-size-s: 28px;
+  --font-size-xl: 82px;
+  --font-size-xs: 27px;
+  --font-size-xxl: 144px;
+  --font-size-xxs: 26px;
+  --font-size-xxxs: 24px;
+  --font-size-xxxxs: 21px;
+  --font-size-xxxxxs: 18px;
+  --font-size-xxxxxxs: 16px;
+  --font-size-xxxxxxxs: 14px;
+  --font-size-xxxxxxxxs: 12px;
+  --font-size-xxxxxxxxxs: 10px;
+
+  --font-family-open_sans: "Open Sans", Helvetica;
+  --font-family-sofia_pro: "Sofia Pro", Helvetica;
+  --font-family-sofiapro-medium: "SofiaPro-Medium", Helvetica;
+  --font-family-sofiapro-regular: "SofiaPro-Regular", Helvetica;
+  --font-family-sofiapro-semibold: "SofiaPro-SemiBold", Helvetica;
+  --font-family-source_sans_pro: "Source Sans Pro", Helvetica;
+}
+.sourcesanspro-normal-gray-36px {
+  color: var(--gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sourcesanspro-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxxxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sourcesanspro-normal-black-64px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.sofiapro-regular-normal-oslo-gray-21px {
+  color: var(--oslo-gray);
+  font-family: var(--font-family-sofiapro-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sofiapro-regular-normal-onyx-21px {
+  color: var(--onyx);
+  font-family: var(--font-family-sofiapro-regular);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sourcesanspro-normal-gray-36px-2 {
+  color: var(--gray);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sourcesanspro-normal-white-64px {
+  color: var(--white);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.sofiapro-medium-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-sofiapro-medium);
+  font-size: var(--font-size-xxxxxxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+.sourcesanspro-normal-black-36px {
+  color: var(--black);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.sourcesanspro-normal-white-144px {
+  color: var(--white);
+  font-family: var(--font-family-source_sans_pro);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.opensans-bold-dove-gray-24px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+.opensans-normal-dove-gray-18px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+.sofiapro-medium-waterloo--14px {
+  color: var(--waterloo-);
+  font-family: var(--font-family-sofiapro-medium);
+  font-size: var(--font-size-xxxxxxxs);
+  font-style: normal;
+  font-weight: 500;
+}
+.sofiapro-bold-cadet-blue-10px {
+  color: var(--cadet-blue);
+  font-family: var(--font-family-sofiapro-semibold);
+  font-size: var(--font-size-xxxxxxxxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+.border-1px-dove-gray-2 {
+  border: 1px solid var(--dove-gray-2);
+}
+.border-2px-white {
+  border: 2px solid var(--white);
+}
