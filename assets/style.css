@@ -32,6 +32,9 @@ img {
 
 .header {
 	padding-bottom: 40px;
+	text-align: center;
+	line-height: 0; 
+
 }
 
 .center {
