@@ -467,8 +467,8 @@ a {
 
 
 .digitalcont{
-	background: white;
-	height: 800px;
+	background: linear-gradient(#001432, #198c78);
+	height: 900px;
 }
 
 .digitalcont-margins {
@@ -476,13 +476,20 @@ a {
 	width: 1000px;
 }
 
-.digitalcont p{
+.word-back h2 {
+	font-size: 120px;
+	position: absolute;
+	margin-top: 340px;
+	margin-left: 250px;
+}
+
+/*.digitalcont p{
 	float: right;
 	margin-top: 40px;
 	font-size: 20px;
 	font-weight: 200;
 	line-height: 25px;
-}
+}*/
 
 
 /*Pamphlet-Design-1 The Outside Side*/
