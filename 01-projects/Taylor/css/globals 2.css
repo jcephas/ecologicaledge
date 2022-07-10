@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400|Open+Sans:400,700");
+
+@font-face {
+  font-family: "SofiaPro-SemiBold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c1264bfc78d8c000a7cd521/Sofia Pro SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SofiaPro-Medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url("https://anima-uploads.s3.amazonaws.com/5becdbda1ec0b6000bf0ff1b/Sofia Pro Medium [TheFontsMaster.com].otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "SofiaPro-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c5187824fe4f300099ea24b/Sofia Pro Regular.ttf") format("truetype");
+}
+
+* {
+  box-sizing: border-box;
+}
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
+}
+.screen a {
+  text-decoration: none;
+  display: contents;
+}

@@ -1,0 +1,129 @@
+/* screen - research-page */
+
+.research-page {
+  background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 1080px;
+  min-width: 1920px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+.research-page .additional-research-a71nxV {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+.research-page .buttons-IcPKRJ {
+  background-color: transparent;
+  height: 40px;
+  position: absolute;
+  right: 140px;
+  top: calc(50.00% - 20px);
+  width: 505px;
+}
+.research-page .header-C61RwL {
+  background-color: var(--apricot);
+  height: 150px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
+.research-page .initial-proposal-HSjBkh {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
+.research-page .initial-research-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-3@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 136px;
+}
+.research-page .logo-favicon-IcPKRJ {
+  background-color: transparent;
+  height: calc(100.00% - 49px);
+  left: 140px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 122px;
+}
+.research-page .rectangle-11-C61RwL {
+  background-color: var(--opal);
+  height: calc(100.00% - 150px);
+  left: 0px;
+  position: absolute;
+  top: 150px;
+  width: 100%;
+}
+.research-page .research-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-1@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 100%;
+  left: calc(44.32% - 75px);
+  position: absolute;
+  top: 0px;
+  width: 169px;
+}
+.research-page .site-title-IcPKRJ {
+  background-color: transparent;
+  bottom: calc(40.72% - 22px);
+  height: 53px;
+  left: 278px;
+  letter-spacing: 0.00px;
+  line-height: 36px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 612px;
+}
+.research-page .summary-button-BaIJec {
+  background-color: transparent;
+  background-image: url(../img/background-2@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 100%;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 98px;
+}
+.research-page .summary-puoRIN {
+  background-color: transparent;
+  bottom: calc(25.00% - 6px);
+  height: 24px;
+  left: 16px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: calc(100.00% - 29px);
+}
